@@ -20,255 +20,269 @@
 14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 14-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:7:5-79
 14-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:7:22-76
-15    <uses-permission android:name="android.permission.USE_BIOMETRIC" /> <!-- suppress DeprecatedClassUsageInspection -->
-15-->[androidx.biometric:biometric:1.2.0-alpha05] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\433a94f9425c62f33d715214d59ab7d4\transformed\biometric-1.2.0-alpha05\AndroidManifest.xml:22:5-72
-15-->[androidx.biometric:biometric:1.2.0-alpha05] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\433a94f9425c62f33d715214d59ab7d4\transformed\biometric-1.2.0-alpha05\AndroidManifest.xml:22:22-69
-16    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
-16-->[androidx.biometric:biometric:1.2.0-alpha05] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\433a94f9425c62f33d715214d59ab7d4\transformed\biometric-1.2.0-alpha05\AndroidManifest.xml:25:5-74
-16-->[androidx.biometric:biometric:1.2.0-alpha05] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\433a94f9425c62f33d715214d59ab7d4\transformed\biometric-1.2.0-alpha05\AndroidManifest.xml:25:22-71
-17
-18    <permission
-18-->[androidx.core:core:1.15.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\d55de591605b477872f81e4cc574760d\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
-19        android:name="com.securevote.remote.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-19-->[androidx.core:core:1.15.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\d55de591605b477872f81e4cc574760d\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
-20        android:protectionLevel="signature" />
-20-->[androidx.core:core:1.15.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\d55de591605b477872f81e4cc574760d\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
-21
-22    <uses-permission android:name="com.securevote.remote.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-22-->[androidx.core:core:1.15.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\d55de591605b477872f81e4cc574760d\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
-22-->[androidx.core:core:1.15.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\d55de591605b477872f81e4cc574760d\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
-23
-24    <application
-24-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:8:5-24:19
-25        android:name="com.securevote.remote.SVRApplication"
-25-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:9:9-39
-26        android:allowBackup="false"
-26-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:10:9-36
-27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-27-->[androidx.core:core:1.15.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\d55de591605b477872f81e4cc574760d\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
-28        android:debuggable="true"
-29        android:extractNativeLibs="false"
-30        android:icon="@android:drawable/sym_def_app_icon"
-30-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:11:9-58
-31        android:label="SecureVote Remote"
-31-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:12:9-42
-32        android:networkSecurityConfig="@xml/network_security_config"
-32-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:15:9-69
-33        android:supportsRtl="true"
-33-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:13:9-35
-34        android:testOnly="true"
-35        android:theme="@style/Theme.SecureVoteRemote" >
-35-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:14:9-54
-36        <activity
-36-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:17:9-23:20
-37            android:name="com.securevote.remote.MainActivity"
-37-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:17:19-47
-38            android:exported="true"
-38-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:17:48-71
-39            android:screenOrientation="portrait"
-39-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:18:13-49
-40            android:windowSoftInputMode="adjustResize" >
-40-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:18:50-92
-41            <intent-filter>
-41-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:19:13-22:29
-42                <action android:name="android.intent.action.MAIN" />
-42-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:20:17-69
-42-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:20:25-66
-43
-44                <category android:name="android.intent.category.LAUNCHER" />
-44-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:21:17-77
-44-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:21:27-74
-45            </intent-filter>
-46        </activity>
-47
-48        <service
-48-->[androidx.camera:camera-camera2:1.4.1] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\fcf3363768d0e06de01b36e040a6f9e3\transformed\camera-camera2-1.4.1\AndroidManifest.xml:24:9-33:19
-49            android:name="androidx.camera.core.impl.MetadataHolderService"
-49-->[androidx.camera:camera-camera2:1.4.1] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\fcf3363768d0e06de01b36e040a6f9e3\transformed\camera-camera2-1.4.1\AndroidManifest.xml:25:13-75
-50            android:enabled="false"
-50-->[androidx.camera:camera-camera2:1.4.1] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\fcf3363768d0e06de01b36e040a6f9e3\transformed\camera-camera2-1.4.1\AndroidManifest.xml:26:13-36
-51            android:exported="false" >
-51-->[androidx.camera:camera-camera2:1.4.1] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\fcf3363768d0e06de01b36e040a6f9e3\transformed\camera-camera2-1.4.1\AndroidManifest.xml:27:13-37
-52            <meta-data
-52-->[androidx.camera:camera-camera2:1.4.1] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\fcf3363768d0e06de01b36e040a6f9e3\transformed\camera-camera2-1.4.1\AndroidManifest.xml:30:13-32:89
-53                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
-53-->[androidx.camera:camera-camera2:1.4.1] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\fcf3363768d0e06de01b36e040a6f9e3\transformed\camera-camera2-1.4.1\AndroidManifest.xml:31:17-103
-54                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
-54-->[androidx.camera:camera-camera2:1.4.1] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\fcf3363768d0e06de01b36e040a6f9e3\transformed\camera-camera2-1.4.1\AndroidManifest.xml:32:17-86
-55        </service>
+15
+16    <uses-feature
+16-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:8:5-82
+17        android:name="android.hardware.nfc"
+17-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:8:19-54
+18        android:required="false" />
+18-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:8:55-79
+19    <uses-feature
+19-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:9:5-85
+20        android:name="android.hardware.camera"
+20-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:9:19-57
+21        android:required="false" />
+21-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:9:58-82
+22
+23    <uses-permission android:name="android.permission.USE_BIOMETRIC" /> <!-- suppress DeprecatedClassUsageInspection -->
+23-->[androidx.biometric:biometric:1.2.0-alpha05] C:\Users\BadVolf\.gradle\caches\8.13\transforms\649af19d68f1770a9ed8dbfdbc3d20c1\transformed\biometric-1.2.0-alpha05\AndroidManifest.xml:22:5-72
+23-->[androidx.biometric:biometric:1.2.0-alpha05] C:\Users\BadVolf\.gradle\caches\8.13\transforms\649af19d68f1770a9ed8dbfdbc3d20c1\transformed\biometric-1.2.0-alpha05\AndroidManifest.xml:22:22-69
+24    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+24-->[androidx.biometric:biometric:1.2.0-alpha05] C:\Users\BadVolf\.gradle\caches\8.13\transforms\649af19d68f1770a9ed8dbfdbc3d20c1\transformed\biometric-1.2.0-alpha05\AndroidManifest.xml:25:5-74
+24-->[androidx.biometric:biometric:1.2.0-alpha05] C:\Users\BadVolf\.gradle\caches\8.13\transforms\649af19d68f1770a9ed8dbfdbc3d20c1\transformed\biometric-1.2.0-alpha05\AndroidManifest.xml:25:22-71
+25
+26    <permission
+26-->[androidx.core:core:1.15.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\8fc927058373250e15c7ca0425c54ebd\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+27        android:name="com.securevote.remote.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+27-->[androidx.core:core:1.15.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\8fc927058373250e15c7ca0425c54ebd\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+28        android:protectionLevel="signature" />
+28-->[androidx.core:core:1.15.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\8fc927058373250e15c7ca0425c54ebd\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+29
+30    <uses-permission android:name="com.securevote.remote.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+30-->[androidx.core:core:1.15.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\8fc927058373250e15c7ca0425c54ebd\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+30-->[androidx.core:core:1.15.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\8fc927058373250e15c7ca0425c54ebd\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+31
+32    <application
+32-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:10:5-26:19
+33        android:name="com.securevote.remote.SVRApplication"
+33-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:11:9-39
+34        android:allowBackup="false"
+34-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:12:9-36
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.15.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\8fc927058373250e15c7ca0425c54ebd\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+36        android:debuggable="true"
+37        android:extractNativeLibs="false"
+38        android:icon="@android:drawable/sym_def_app_icon"
+38-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:13:9-58
+39        android:label="SecureVote Remote"
+39-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:14:9-42
+40        android:networkSecurityConfig="@xml/network_security_config"
+40-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:17:9-69
+41        android:supportsRtl="true"
+41-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:15:9-35
+42        android:testOnly="true"
+43        android:theme="@style/Theme.SecureVoteRemote" >
+43-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:16:9-54
+44        <activity
+44-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:19:9-25:20
+45            android:name="com.securevote.remote.MainActivity"
+45-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:19:19-47
+46            android:exported="true"
+46-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:19:48-71
+47            android:screenOrientation="portrait"
+47-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:20:13-49
+48            android:windowSoftInputMode="adjustResize" >
+48-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:20:50-92
+49            <intent-filter>
+49-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:21:13-24:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:22:17-69
+50-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:22:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:23:17-77
+52-->D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:23:27-74
+53            </intent-filter>
+54        </activity>
+55
 56        <service
-56-->[com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\248d236e47425158df2a4054b9708222\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:9:9-15:19
-57            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
-57-->[com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\248d236e47425158df2a4054b9708222\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:10:13-91
-58            android:directBootAware="true"
-58-->[com.google.mlkit:common:18.11.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\cdaf499b918f748a626edd3d720c20c3\transformed\common-18.11.0\AndroidManifest.xml:17:13-43
+56-->[androidx.camera:camera-camera2:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\149682c18d5140d7a1b8dc5bcd85f368\transformed\camera-camera2-1.4.1\AndroidManifest.xml:24:9-33:19
+57            android:name="androidx.camera.core.impl.MetadataHolderService"
+57-->[androidx.camera:camera-camera2:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\149682c18d5140d7a1b8dc5bcd85f368\transformed\camera-camera2-1.4.1\AndroidManifest.xml:25:13-75
+58            android:enabled="false"
+58-->[androidx.camera:camera-camera2:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\149682c18d5140d7a1b8dc5bcd85f368\transformed\camera-camera2-1.4.1\AndroidManifest.xml:26:13-36
 59            android:exported="false" >
-59-->[com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\248d236e47425158df2a4054b9708222\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:11:13-37
+59-->[androidx.camera:camera-camera2:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\149682c18d5140d7a1b8dc5bcd85f368\transformed\camera-camera2-1.4.1\AndroidManifest.xml:27:13-37
 60            <meta-data
-60-->[com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\248d236e47425158df2a4054b9708222\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:12:13-14:85
-61                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
-61-->[com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\248d236e47425158df2a4054b9708222\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:13:17-114
-62                android:value="com.google.firebase.components.ComponentRegistrar" />
-62-->[com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\248d236e47425158df2a4054b9708222\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:14:17-82
-63            <meta-data
-63-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\b59ffa01c53255bc63621919f04db792\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:12:13-14:85
-64                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
-64-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\b59ffa01c53255bc63621919f04db792\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:13:17-120
-65                android:value="com.google.firebase.components.ComponentRegistrar" />
-65-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\b59ffa01c53255bc63621919f04db792\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:14:17-82
-66            <meta-data
-66-->[com.google.mlkit:vision-common:17.3.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\61480768ba375ac25722ca17997eb202\transformed\vision-common-17.3.0\AndroidManifest.xml:12:13-14:85
-67                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
-67-->[com.google.mlkit:vision-common:17.3.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\61480768ba375ac25722ca17997eb202\transformed\vision-common-17.3.0\AndroidManifest.xml:13:17-124
-68                android:value="com.google.firebase.components.ComponentRegistrar" />
-68-->[com.google.mlkit:vision-common:17.3.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\61480768ba375ac25722ca17997eb202\transformed\vision-common-17.3.0\AndroidManifest.xml:14:17-82
-69            <meta-data
-69-->[com.google.mlkit:common:18.11.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\cdaf499b918f748a626edd3d720c20c3\transformed\common-18.11.0\AndroidManifest.xml:20:13-22:85
-70                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
-70-->[com.google.mlkit:common:18.11.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\cdaf499b918f748a626edd3d720c20c3\transformed\common-18.11.0\AndroidManifest.xml:21:17-120
-71                android:value="com.google.firebase.components.ComponentRegistrar" />
-71-->[com.google.mlkit:common:18.11.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\cdaf499b918f748a626edd3d720c20c3\transformed\common-18.11.0\AndroidManifest.xml:22:17-82
-72        </service>
-73
-74        <provider
-74-->[com.google.mlkit:common:18.11.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\cdaf499b918f748a626edd3d720c20c3\transformed\common-18.11.0\AndroidManifest.xml:9:9-13:38
-75            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
-75-->[com.google.mlkit:common:18.11.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\cdaf499b918f748a626edd3d720c20c3\transformed\common-18.11.0\AndroidManifest.xml:10:13-78
-76            android:authorities="com.securevote.remote.mlkitinitprovider"
-76-->[com.google.mlkit:common:18.11.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\cdaf499b918f748a626edd3d720c20c3\transformed\common-18.11.0\AndroidManifest.xml:11:13-69
-77            android:exported="false"
-77-->[com.google.mlkit:common:18.11.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\cdaf499b918f748a626edd3d720c20c3\transformed\common-18.11.0\AndroidManifest.xml:12:13-37
-78            android:initOrder="99" />
-78-->[com.google.mlkit:common:18.11.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\cdaf499b918f748a626edd3d720c20c3\transformed\common-18.11.0\AndroidManifest.xml:13:13-35
-79
-80        <activity
-80-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\aadf9a3740e0dbcc1e8ab6f2494975b2\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
-81            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-81-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\aadf9a3740e0dbcc1e8ab6f2494975b2\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
-82            android:exported="false"
-82-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\aadf9a3740e0dbcc1e8ab6f2494975b2\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
-83            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-83-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\aadf9a3740e0dbcc1e8ab6f2494975b2\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
-84
-85        <meta-data
-85-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\c0daf06bf8ad0aec81b02b356c057f90\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
-86            android:name="com.google.android.gms.version"
-86-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\c0daf06bf8ad0aec81b02b356c057f90\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
-87            android:value="@integer/google_play_services_version" />
-87-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\c0daf06bf8ad0aec81b02b356c057f90\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
-88
-89        <activity
-89-->[androidx.compose.ui:ui-tooling-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\17f542db7af3251f7d60aeefd6847c09\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
-90            android:name="androidx.compose.ui.tooling.PreviewActivity"
-90-->[androidx.compose.ui:ui-tooling-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\17f542db7af3251f7d60aeefd6847c09\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
-91            android:exported="true" />
-91-->[androidx.compose.ui:ui-tooling-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\17f542db7af3251f7d60aeefd6847c09\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+60-->[androidx.camera:camera-camera2:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\149682c18d5140d7a1b8dc5bcd85f368\transformed\camera-camera2-1.4.1\AndroidManifest.xml:30:13-32:89
+61                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+61-->[androidx.camera:camera-camera2:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\149682c18d5140d7a1b8dc5bcd85f368\transformed\camera-camera2-1.4.1\AndroidManifest.xml:31:17-103
+62                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+62-->[androidx.camera:camera-camera2:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\149682c18d5140d7a1b8dc5bcd85f368\transformed\camera-camera2-1.4.1\AndroidManifest.xml:32:17-86
+63        </service>
+64        <service
+64-->[com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\fb085aec6a1c6654bddcb604c52b102d\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:9:9-15:19
+65            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+65-->[com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\fb085aec6a1c6654bddcb604c52b102d\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:10:13-91
+66            android:directBootAware="true"
+66-->[com.google.mlkit:common:18.11.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\188476eb0906f868cd2cd681e73d71c0\transformed\common-18.11.0\AndroidManifest.xml:17:13-43
+67            android:exported="false" >
+67-->[com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\fb085aec6a1c6654bddcb604c52b102d\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:11:13-37
+68            <meta-data
+68-->[com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\fb085aec6a1c6654bddcb604c52b102d\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:12:13-14:85
+69                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+69-->[com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\fb085aec6a1c6654bddcb604c52b102d\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:13:17-114
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\fb085aec6a1c6654bddcb604c52b102d\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:14:17-82
+71            <meta-data
+71-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\58dc892556e46076e092b39e0dd20804\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:12:13-14:85
+72                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+72-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\58dc892556e46076e092b39e0dd20804\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:13:17-120
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\58dc892556e46076e092b39e0dd20804\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:14:17-82
+74            <meta-data
+74-->[com.google.mlkit:vision-common:17.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\86af0f46a6af966882f117b04c2d06af\transformed\vision-common-17.3.0\AndroidManifest.xml:12:13-14:85
+75                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+75-->[com.google.mlkit:vision-common:17.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\86af0f46a6af966882f117b04c2d06af\transformed\vision-common-17.3.0\AndroidManifest.xml:13:17-124
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.mlkit:vision-common:17.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\86af0f46a6af966882f117b04c2d06af\transformed\vision-common-17.3.0\AndroidManifest.xml:14:17-82
+77            <meta-data
+77-->[com.google.mlkit:common:18.11.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\188476eb0906f868cd2cd681e73d71c0\transformed\common-18.11.0\AndroidManifest.xml:20:13-22:85
+78                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+78-->[com.google.mlkit:common:18.11.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\188476eb0906f868cd2cd681e73d71c0\transformed\common-18.11.0\AndroidManifest.xml:21:17-120
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[com.google.mlkit:common:18.11.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\188476eb0906f868cd2cd681e73d71c0\transformed\common-18.11.0\AndroidManifest.xml:22:17-82
+80        </service>
+81
+82        <provider
+82-->[com.google.mlkit:common:18.11.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\188476eb0906f868cd2cd681e73d71c0\transformed\common-18.11.0\AndroidManifest.xml:9:9-13:38
+83            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+83-->[com.google.mlkit:common:18.11.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\188476eb0906f868cd2cd681e73d71c0\transformed\common-18.11.0\AndroidManifest.xml:10:13-78
+84            android:authorities="com.securevote.remote.mlkitinitprovider"
+84-->[com.google.mlkit:common:18.11.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\188476eb0906f868cd2cd681e73d71c0\transformed\common-18.11.0\AndroidManifest.xml:11:13-69
+85            android:exported="false"
+85-->[com.google.mlkit:common:18.11.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\188476eb0906f868cd2cd681e73d71c0\transformed\common-18.11.0\AndroidManifest.xml:12:13-37
+86            android:initOrder="99" />
+86-->[com.google.mlkit:common:18.11.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\188476eb0906f868cd2cd681e73d71c0\transformed\common-18.11.0\AndroidManifest.xml:13:13-35
+87
+88        <activity
+88-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\a59ae0885427a1d6e21f1d93e457d45e\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+89            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+89-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\a59ae0885427a1d6e21f1d93e457d45e\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+90            android:exported="false"
+90-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\a59ae0885427a1d6e21f1d93e457d45e\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+91            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+91-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\a59ae0885427a1d6e21f1d93e457d45e\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
 92
-93        <provider
-93-->[androidx.emoji2:emoji2:1.3.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\bd0b61675c0b8d329bb883f1b4b465a2\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-94            android:name="androidx.startup.InitializationProvider"
-94-->[androidx.emoji2:emoji2:1.3.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\bd0b61675c0b8d329bb883f1b4b465a2\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
-95            android:authorities="com.securevote.remote.androidx-startup"
-95-->[androidx.emoji2:emoji2:1.3.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\bd0b61675c0b8d329bb883f1b4b465a2\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
-96            android:exported="false" >
-96-->[androidx.emoji2:emoji2:1.3.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\bd0b61675c0b8d329bb883f1b4b465a2\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
-97            <meta-data
-97-->[androidx.emoji2:emoji2:1.3.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\bd0b61675c0b8d329bb883f1b4b465a2\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
-98                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-98-->[androidx.emoji2:emoji2:1.3.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\bd0b61675c0b8d329bb883f1b4b465a2\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
-99                android:value="androidx.startup" />
-99-->[androidx.emoji2:emoji2:1.3.0] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\bd0b61675c0b8d329bb883f1b4b465a2\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
-100            <meta-data
-100-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\a3e8ed76d6fb93061f86791f00c4aa48\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
-101                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-101-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\a3e8ed76d6fb93061f86791f00c4aa48\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
-102                android:value="androidx.startup" />
-102-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\a3e8ed76d6fb93061f86791f00c4aa48\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
-103            <meta-data
-103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\af33c09cfa9e35a36c0170ba5d24d1e7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
-104                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-104-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\af33c09cfa9e35a36c0170ba5d24d1e7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
-105                android:value="androidx.startup" />
-105-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\af33c09cfa9e35a36c0170ba5d24d1e7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
-106        </provider>
-107
-108        <receiver
-108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\af33c09cfa9e35a36c0170ba5d24d1e7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
-109            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\af33c09cfa9e35a36c0170ba5d24d1e7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
-110            android:directBootAware="false"
-110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\af33c09cfa9e35a36c0170ba5d24d1e7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
-111            android:enabled="true"
-111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\af33c09cfa9e35a36c0170ba5d24d1e7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
-112            android:exported="true"
-112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\af33c09cfa9e35a36c0170ba5d24d1e7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
-113            android:permission="android.permission.DUMP" >
-113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\af33c09cfa9e35a36c0170ba5d24d1e7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
-114            <intent-filter>
-114-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\af33c09cfa9e35a36c0170ba5d24d1e7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
-115                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-115-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\af33c09cfa9e35a36c0170ba5d24d1e7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
-115-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\af33c09cfa9e35a36c0170ba5d24d1e7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
-116            </intent-filter>
-117            <intent-filter>
-117-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\af33c09cfa9e35a36c0170ba5d24d1e7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
-118                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-118-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\af33c09cfa9e35a36c0170ba5d24d1e7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
-118-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\af33c09cfa9e35a36c0170ba5d24d1e7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
-119            </intent-filter>
-120            <intent-filter>
-120-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\af33c09cfa9e35a36c0170ba5d24d1e7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
-121                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\af33c09cfa9e35a36c0170ba5d24d1e7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
-121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\af33c09cfa9e35a36c0170ba5d24d1e7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
-122            </intent-filter>
-123            <intent-filter>
-123-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\af33c09cfa9e35a36c0170ba5d24d1e7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
-124                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-124-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\af33c09cfa9e35a36c0170ba5d24d1e7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
-124-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\af33c09cfa9e35a36c0170ba5d24d1e7\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
-125            </intent-filter>
-126        </receiver>
-127
-128        <service
-128-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\a6f2a772ef53d8b82a00691e05cacd0b\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
-129            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-129-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\a6f2a772ef53d8b82a00691e05cacd0b\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
-130            android:exported="false" >
-130-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\a6f2a772ef53d8b82a00691e05cacd0b\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
-131            <meta-data
-131-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\a6f2a772ef53d8b82a00691e05cacd0b\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
-132                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-132-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\a6f2a772ef53d8b82a00691e05cacd0b\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
-133                android:value="cct" />
-133-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\a6f2a772ef53d8b82a00691e05cacd0b\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
-134        </service>
-135        <service
-135-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\dfc7380cb6030dd7a8e6eba295549809\transformed\transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
-136            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-136-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\dfc7380cb6030dd7a8e6eba295549809\transformed\transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
-137            android:exported="false"
-137-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\dfc7380cb6030dd7a8e6eba295549809\transformed\transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
-138            android:permission="android.permission.BIND_JOB_SERVICE" >
-138-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\dfc7380cb6030dd7a8e6eba295549809\transformed\transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
-139        </service>
-140
-141        <receiver
-141-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\dfc7380cb6030dd7a8e6eba295549809\transformed\transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
-142            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-142-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\dfc7380cb6030dd7a8e6eba295549809\transformed\transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
-143            android:exported="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
-143-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\dfc7380cb6030dd7a8e6eba295549809\transformed\transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
-144        <activity
-144-->[com.google.android.play:core-common:2.0.4] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\9d3dc080058c90b7374075d0c03e1665\transformed\core-common-2.0.4\AndroidManifest.xml:14:9-18:65
-145            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
-145-->[com.google.android.play:core-common:2.0.4] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\9d3dc080058c90b7374075d0c03e1665\transformed\core-common-2.0.4\AndroidManifest.xml:15:13-93
-146            android:exported="false"
-146-->[com.google.android.play:core-common:2.0.4] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\9d3dc080058c90b7374075d0c03e1665\transformed\core-common-2.0.4\AndroidManifest.xml:16:13-37
-147            android:stateNotNeeded="true"
-147-->[com.google.android.play:core-common:2.0.4] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\9d3dc080058c90b7374075d0c03e1665\transformed\core-common-2.0.4\AndroidManifest.xml:17:13-42
-148            android:theme="@style/Theme.PlayCore.Transparent" />
-148-->[com.google.android.play:core-common:2.0.4] C:\Users\BadVolf\.gradle\caches\8.11.1\transforms\9d3dc080058c90b7374075d0c03e1665\transformed\core-common-2.0.4\AndroidManifest.xml:18:13-62
-149    </application>
-150
-151</manifest>
+93        <meta-data
+93-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\01d94928ca59a1182ab1b120326177ab\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+94            android:name="com.google.android.gms.version"
+94-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\01d94928ca59a1182ab1b120326177ab\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+95            android:value="@integer/google_play_services_version" />
+95-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\01d94928ca59a1182ab1b120326177ab\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+96
+97        <activity
+97-->[androidx.compose.ui:ui-tooling-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\c53622ec76ef102ccc06be34d55ee839\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+98            android:name="androidx.compose.ui.tooling.PreviewActivity"
+98-->[androidx.compose.ui:ui-tooling-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\c53622ec76ef102ccc06be34d55ee839\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+99            android:exported="true" />
+99-->[androidx.compose.ui:ui-tooling-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\c53622ec76ef102ccc06be34d55ee839\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+100
+101        <provider
+101-->[androidx.emoji2:emoji2:1.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\607cd258701863dc09f9374bdd385331\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+102            android:name="androidx.startup.InitializationProvider"
+102-->[androidx.emoji2:emoji2:1.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\607cd258701863dc09f9374bdd385331\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+103            android:authorities="com.securevote.remote.androidx-startup"
+103-->[androidx.emoji2:emoji2:1.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\607cd258701863dc09f9374bdd385331\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+104            android:exported="false" >
+104-->[androidx.emoji2:emoji2:1.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\607cd258701863dc09f9374bdd385331\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+105            <meta-data
+105-->[androidx.emoji2:emoji2:1.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\607cd258701863dc09f9374bdd385331\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+106                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+106-->[androidx.emoji2:emoji2:1.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\607cd258701863dc09f9374bdd385331\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+107                android:value="androidx.startup" />
+107-->[androidx.emoji2:emoji2:1.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\607cd258701863dc09f9374bdd385331\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+108            <meta-data
+108-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\92857f86a015d46af5bec27dfdd540ca\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+109                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+109-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\92857f86a015d46af5bec27dfdd540ca\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+110                android:value="androidx.startup" />
+110-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\92857f86a015d46af5bec27dfdd540ca\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+111            <meta-data
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\9cf0bbfc4eded6c977e98a571ad02713\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+112                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\9cf0bbfc4eded6c977e98a571ad02713\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+113                android:value="androidx.startup" />
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\9cf0bbfc4eded6c977e98a571ad02713\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+114        </provider>
+115
+116        <receiver
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\9cf0bbfc4eded6c977e98a571ad02713\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+117            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\9cf0bbfc4eded6c977e98a571ad02713\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+118            android:directBootAware="false"
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\9cf0bbfc4eded6c977e98a571ad02713\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+119            android:enabled="true"
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\9cf0bbfc4eded6c977e98a571ad02713\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+120            android:exported="true"
+120-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\9cf0bbfc4eded6c977e98a571ad02713\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+121            android:permission="android.permission.DUMP" >
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\9cf0bbfc4eded6c977e98a571ad02713\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+122            <intent-filter>
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\9cf0bbfc4eded6c977e98a571ad02713\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+123                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\9cf0bbfc4eded6c977e98a571ad02713\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\9cf0bbfc4eded6c977e98a571ad02713\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+124            </intent-filter>
+125            <intent-filter>
+125-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\9cf0bbfc4eded6c977e98a571ad02713\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+126                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\9cf0bbfc4eded6c977e98a571ad02713\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\9cf0bbfc4eded6c977e98a571ad02713\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+127            </intent-filter>
+128            <intent-filter>
+128-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\9cf0bbfc4eded6c977e98a571ad02713\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+129                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+129-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\9cf0bbfc4eded6c977e98a571ad02713\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+129-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\9cf0bbfc4eded6c977e98a571ad02713\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+130            </intent-filter>
+131            <intent-filter>
+131-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\9cf0bbfc4eded6c977e98a571ad02713\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+132                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+132-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\9cf0bbfc4eded6c977e98a571ad02713\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+132-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\9cf0bbfc4eded6c977e98a571ad02713\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+133            </intent-filter>
+134        </receiver>
+135
+136        <service
+136-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\BadVolf\.gradle\caches\8.13\transforms\14a73555f65e4d5c402a86362bef03d6\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+137            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+137-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\BadVolf\.gradle\caches\8.13\transforms\14a73555f65e4d5c402a86362bef03d6\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+138            android:exported="false" >
+138-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\BadVolf\.gradle\caches\8.13\transforms\14a73555f65e4d5c402a86362bef03d6\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+139            <meta-data
+139-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\BadVolf\.gradle\caches\8.13\transforms\14a73555f65e4d5c402a86362bef03d6\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+140                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+140-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\BadVolf\.gradle\caches\8.13\transforms\14a73555f65e4d5c402a86362bef03d6\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+141                android:value="cct" />
+141-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\BadVolf\.gradle\caches\8.13\transforms\14a73555f65e4d5c402a86362bef03d6\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+142        </service>
+143        <service
+143-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\0d107fa449f1498c51c64c039cc4ef8c\transformed\transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+144            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+144-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\0d107fa449f1498c51c64c039cc4ef8c\transformed\transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+145            android:exported="false"
+145-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\0d107fa449f1498c51c64c039cc4ef8c\transformed\transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+146            android:permission="android.permission.BIND_JOB_SERVICE" >
+146-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\0d107fa449f1498c51c64c039cc4ef8c\transformed\transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+147        </service>
+148
+149        <receiver
+149-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\0d107fa449f1498c51c64c039cc4ef8c\transformed\transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+150            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+150-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\0d107fa449f1498c51c64c039cc4ef8c\transformed\transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+151            android:exported="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+151-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\0d107fa449f1498c51c64c039cc4ef8c\transformed\transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+152        <activity
+152-->[com.google.android.play:core-common:2.0.4] C:\Users\BadVolf\.gradle\caches\8.13\transforms\1b9efc6c4532b41eadc666da4fc1ca44\transformed\core-common-2.0.4\AndroidManifest.xml:14:9-18:65
+153            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+153-->[com.google.android.play:core-common:2.0.4] C:\Users\BadVolf\.gradle\caches\8.13\transforms\1b9efc6c4532b41eadc666da4fc1ca44\transformed\core-common-2.0.4\AndroidManifest.xml:15:13-93
+154            android:exported="false"
+154-->[com.google.android.play:core-common:2.0.4] C:\Users\BadVolf\.gradle\caches\8.13\transforms\1b9efc6c4532b41eadc666da4fc1ca44\transformed\core-common-2.0.4\AndroidManifest.xml:16:13-37
+155            android:stateNotNeeded="true"
+155-->[com.google.android.play:core-common:2.0.4] C:\Users\BadVolf\.gradle\caches\8.13\transforms\1b9efc6c4532b41eadc666da4fc1ca44\transformed\core-common-2.0.4\AndroidManifest.xml:17:13-42
+156            android:theme="@style/Theme.PlayCore.Transparent" />
+156-->[com.google.android.play:core-common:2.0.4] C:\Users\BadVolf\.gradle\caches\8.13\transforms\1b9efc6c4532b41eadc666da4fc1ca44\transformed\core-common-2.0.4\AndroidManifest.xml:18:13-62
+157    </application>
+158
+159</manifest>

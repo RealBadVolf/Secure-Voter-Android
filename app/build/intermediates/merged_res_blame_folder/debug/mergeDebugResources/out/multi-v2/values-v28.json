@@ -4,7 +4,7 @@
             "outputFile": "com.securevote.remote.app-mergeDebugResources-73:/values-v28/values-v28.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\BadVolf\\.gradle\\caches\\8.11.1\\transforms\\a0c652dd7262f4b9c112f4f1c4da2a7f\\transformed\\appcompat-1.6.1\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\BadVolf\\.gradle\\caches\\8.13\\transforms\\afe0bbe1692f1217b9bb87a29f5e2f1d\\transformed\\appcompat-1.6.1\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",
