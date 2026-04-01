@@ -1,0 +1,737 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:2:1-70:12
+INJECTED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:2:1-70:12
+INJECTED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:2:1-70:12
+INJECTED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:2:1-70:12
+MERGED from [androidx.camera:camera-video:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\17c1418250a8a0965fc4ba294574f0da\transformed\camera-video-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-view:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\5ddc3935fd7c7ded93fdec224478ca72\transformed\camera-view-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-lifecycle:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\ea6a3180655269352f49704f15dbd7ca\transformed\camera-lifecycle-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-camera2:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\4bd2380a571f1b13e3586ba279b89d8b\transformed\camera-camera2-1.4.1\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\d9f6385a38999a799bdf3b57b398b3a5\transformed\camera-core-1.4.1\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.biometric:biometric:1.2.0-alpha05] C:\Users\BadVolf\.gradle\caches\8.13\transforms\cc6a9a3b4810dec0130308abf58d0d81\transformed\biometric-1.2.0-alpha05\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.mlkit:face-detection:16.1.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\24d62a158e76c3abb769a182001f8642\transformed\face-detection-16.1.7\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\e90f01a33b5b1df4d91b68a234eafeb8\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:barcode-scanning:17.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\e0f8f8c132b513a3f778bcc302e34023\transformed\barcode-scanning-17.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\39b8e7b5b3a4f6311b72f6b3b7ff698d\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\8a380a627d4a4013b0ac4cf5820f396a\transformed\barcode-scanning-common-17.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\2d52b981e10df4b57018e4010c3837b9\transformed\vision-common-17.3.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:common:18.11.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\1b2a60197c512070cd661bf48d1e14fa\transformed\common-18.11.0\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\0b160f3e119ea810b28d99ba705b71f7\transformed\play-services-base-18.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.play:integrity:1.4.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\0905dca5098e8491f120ead8a12ecef5\transformed\integrity-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:vision-interfaces:16.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\6cf58db99d1b84f989a32d1f2bae5ea4\transformed\vision-interfaces-16.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\3dd77b5aafa1d0bc34a6a0c5283954a9\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\8895e5f83ffe8b612f6a9e7cd2fcbdef\transformed\play-services-basement-18.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.hilt:hilt-navigation-compose:1.2.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\5996d940a9f7fb349271341739539c86\transformed\hilt-navigation-compose-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.hilt:hilt-navigation:1.2.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\3310350bda243dc2f877215e8f2b12e6\transformed\hilt-navigation-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-common:2.8.5] C:\Users\BadVolf\.gradle\caches\8.13\transforms\255e8f531e9898ab4fff2d5d6e062e78\transformed\navigation-common-2.8.5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.8.5] C:\Users\BadVolf\.gradle\caches\8.13\transforms\512a57f4ca332b7125ad2166bf349d8f\transformed\navigation-runtime-2.8.5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.5] C:\Users\BadVolf\.gradle\caches\8.13\transforms\16e3c5a66ad834406931f0a8c0dd0566\transformed\navigation-common-ktx-2.8.5\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.5] C:\Users\BadVolf\.gradle\caches\8.13\transforms\b15c45d9cc867ce49b263fd49317cff7\transformed\navigation-runtime-ktx-2.8.5\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.8.5] C:\Users\BadVolf\.gradle\caches\8.13\transforms\b690c011d20c8936e66705970a25b25c\transformed\navigation-compose-2.8.5\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3-android:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\fec66b45938097acbcbe09957a593843\transformed\material3-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\cdb5fa80c01bca9293fe5d06709c9b4b\transformed\material-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\4835e933512ebce3893b6151f16996e8\transformed\material-ripple-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\4407e54b7a01af001e792dd9681366fc\transformed\foundation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\d17e35ecf72695ab2dd91eb3c47bb252\transformed\foundation-layout-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\aa9a6473ae215eb526b619db88dbe832\transformed\animation-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\8074906a7b07cc73399398acab169c55\transformed\ui-tooling-data-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\1573838082622c9d56bbc8fd039f069d\transformed\ui-unit-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\947264fc9b1c3630d6a99fa6314fe844\transformed\ui-text-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\5067bfd9f5de815fcfb43dcb2011ad9c\transformed\ui-util-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\fe751e6ebe53f572c243b97558e28c65\transformed\ui-geometry-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\0842e7ef5883bbe62c065656f4e527fd\transformed\ui-tooling-preview-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\89fc749d66da102a76f938ee23127560\transformed\ui-tooling-release\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.animation:animation-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\28876e195f97117bd025780410cff8c9\transformed\animation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\53e66d98e5ace81941773ae40e41f4c5\transformed\ui-graphics-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\3f9695e27ec20ca271b20d5b52c06336\transformed\ui-test-manifest-1.7.6\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.dagger:hilt-android:2.51.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\cdf6a20503c5c1df35eb222e3c8fe9f8\transformed\hilt-android-2.51.1\AndroidManifest.xml:16:1-19:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\9955f7e15dd8de32e6857904df9cd23e\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\e094acd3f9bceb25a08329ea13c82deb\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.5.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\89be57484fa6b36b740c6eb693b786f2\transformed\fragment-1.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\BadVolf\.gradle\caches\8.13\transforms\7554d51605b750344f947285a3636551\transformed\activity-1.9.3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\BadVolf\.gradle\caches\8.13\transforms\4e728dec7a99bd69c4a7c91283e5e3c8\transformed\activity-ktx-1.9.3\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.9.3] C:\Users\BadVolf\.gradle\caches\8.13\transforms\bac1a91aaf5d8c9dcae82cdccd051ad5\transformed\activity-compose-1.9.3\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\91787fcbc7348b30060ee15849468627\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\18ab2aee9addfea4b43f65d4c42027ed\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\dfc42813a3284cbe65e40812aa1ca0c3\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\b0fb99416c166c1c3c8542f90317f143\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\40bac99d399f04b756a293f4f9849348\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\683e195e3722b8f86fee7fb0f77a55d9\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\b759ea0757d76471343b544b71ea76f5\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\407b8b2b3daf3516505fe5d65f71b1ca\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\46cd6e027a9e6d45553ca94d899b2488\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\fa320499497006ccee712c76e0ca69df\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\6c125d3aa6ef0728997c3099492b2000\transformed\lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\818f0c77cc5ff0cd9093a2bc3d16785d\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\5c445ed6390ee29bd5a140f3edc1e3c2\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\02e154ae91341655be58bdc78577025c\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\fc7e0618203cfa832b47bdb93bf009bd\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\fc49327012566e762a8790b55ae23f62\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\d6b50715c8bcb57c720ca4466805250e\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\cd0cbdd7330daa2e05fc22f72e3eef8c\transformed\material-icons-extended-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\aea1f3076632d84615307f96c1c8354c\transformed\material-icons-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\92be701b756b38bfee00b1c44af73bce\transformed\ui-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\1db8c248c15d58f2c24ffc6d76ab494b\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\b93c2f6a933b7005b0fd4a22f1d50c88\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\676e8e60fe51cf6135ebd06a506a91df\transformed\graphics-path-1.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\ed6741c302fc9841b6b7adbfe3e62cab\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\c7b83a5dbbdd86a14b4234dc2a5254b0\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\7a26eb539c1dd72087adf01233baf29e\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\62dc7026414ae0c8f2339e98e7b54e77\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.15.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\613da72296bf9046b5fbbf1d2387b009\transformed\core-1.15.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\6cad7bfbd1dd1ce7632927a739e3c53b\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.15.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\9068877d43df787108608c1f38fd89d4\transformed\core-ktx-1.15.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\ed929e7b89aca5c8247a2d3d6e4a37ab\transformed\runtime-saveable-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\3eb7d3f7239ed06707f785b6b53c0e36\transformed\runtime-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\6e429fd60e8e27f4f5ed4953cc359a1a\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\bffc60e872d3486f783c618ac91a200d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\dec245a656bc59cfa26602aacb4cc03b\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\2d545eeaf722010a0d6705b28f40b94f\transformed\tracing-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\9d7b8e6ad1fc5ba5cb34e8145bbfbbe5\transformed\tracing-ktx-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\355fea73c3a10e5de6deb97cb3689365\transformed\datastore-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-android:1.1.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\7a3daab79c854e76614fa3e0a6e96c95\transformed\datastore-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\9d8efa990d0664f3c6f4963a455814f4\transformed\datastore-preferences-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.security:security-crypto:1.1.0-alpha06] C:\Users\BadVolf\.gradle\caches\8.13\transforms\5c318e69bc2b01ad6787f1dfe801ec68\transformed\security-crypto-1.1.0-alpha06\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\BadVolf\.gradle\caches\8.13\transforms\8a4e1ad53db61cfc2e66e2aa610e41f4\transformed\exifinterface-1.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\BadVolf\.gradle\caches\8.13\transforms\6700673cd5b2f564e2b6a3015fad79cc\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\86e921e71de6d447b0afd641ceb20134\transformed\transport-runtime-2.2.6\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\2213dd59ff1e7df765f9f404648a44fc\transformed\transport-api-2.2.1\AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\d5f2d0a06adad4c5cf78b8c089b42407\transformed\firebase-components-16.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\061638d9c1d1f82d5ab8afeab2cd597e\transformed\firebase-encoders-json-17.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\9a0957a7200ec6eb3f6a14f85a6bbaa9\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\0cbe6a741162cdcc6d7c47c017212a69\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\5db67d77619b09434feb33dde4d5c628\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\989693e900ef33b46832396d63183d81\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.51.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\e407cc1a28e47aa3f084f1936feb962c\transformed\dagger-lint-aar-2.51.1\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.play:core-common:2.0.4] C:\Users\BadVolf\.gradle\caches\8.13\transforms\6aaa6ecf06d7a8e872d502c40d69f2ed\transformed\core-common-2.0.4\AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\d250c27a820ec51b17a0476d84b8c34f\transformed\image-1.0.0-beta1\AndroidManifest.xml:2:1-9:12
+	package
+		INJECTED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.NFC
+ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:6:5-62
+	android:name
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:6:22-59
+uses-feature#android.hardware.nfc
+ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:7:5-82
+	android:required
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:7:55-79
+	android:name
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:7:19-54
+uses-permission#android.permission.CAMERA
+ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:10:5-65
+	android:name
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:10:22-62
+uses-feature#android.hardware.camera
+ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:11:5-84
+	android:required
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:11:58-81
+	android:name
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:11:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:12:5-94
+	android:required
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:12:68-91
+	android:name
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:12:19-67
+uses-permission#android.permission.INTERNET
+ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:15:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\BadVolf\.gradle\caches\8.13\transforms\6700673cd5b2f564e2b6a3015fad79cc\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\BadVolf\.gradle\caches\8.13\transforms\6700673cd5b2f564e2b6a3015fad79cc\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:15:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:16:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\BadVolf\.gradle\caches\8.13\transforms\6700673cd5b2f564e2b6a3015fad79cc\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\BadVolf\.gradle\caches\8.13\transforms\6700673cd5b2f564e2b6a3015fad79cc\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\86e921e71de6d447b0afd641ceb20134\transformed\transport-runtime-2.2.6\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\86e921e71de6d447b0afd641ceb20134\transformed\transport-runtime-2.2.6\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:16:22-76
+uses-feature#android.hardware.fingerprint
+ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:19:5-90
+	android:required
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:19:63-87
+	android:name
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:19:19-62
+uses-feature#android.hardware.strongbox_keystore
+ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:25:5-97
+	android:required
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:25:70-94
+	android:name
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:25:19-69
+application
+ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:27:5-68:19
+INJECTED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:27:5-68:19
+MERGED from [androidx.camera:camera-camera2:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\4bd2380a571f1b13e3586ba279b89d8b\transformed\camera-camera2-1.4.1\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-camera2:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\4bd2380a571f1b13e3586ba279b89d8b\transformed\camera-camera2-1.4.1\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\d9f6385a38999a799bdf3b57b398b3a5\transformed\camera-core-1.4.1\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\d9f6385a38999a799bdf3b57b398b3a5\transformed\camera-core-1.4.1\AndroidManifest.xml:23:5-34:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\e90f01a33b5b1df4d91b68a234eafeb8\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\e90f01a33b5b1df4d91b68a234eafeb8\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\39b8e7b5b3a4f6311b72f6b3b7ff698d\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\39b8e7b5b3a4f6311b72f6b3b7ff698d\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\2d52b981e10df4b57018e4010c3837b9\transformed\vision-common-17.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\2d52b981e10df4b57018e4010c3837b9\transformed\vision-common-17.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:common:18.11.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\1b2a60197c512070cd661bf48d1e14fa\transformed\common-18.11.0\AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.mlkit:common:18.11.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\1b2a60197c512070cd661bf48d1e14fa\transformed\common-18.11.0\AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\0b160f3e119ea810b28d99ba705b71f7\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\0b160f3e119ea810b28d99ba705b71f7\transformed\play-services-base-18.5.0\AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.play:integrity:1.4.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\0905dca5098e8491f120ead8a12ecef5\transformed\integrity-1.4.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.4.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\0905dca5098e8491f120ead8a12ecef5\transformed\integrity-1.4.0\AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\3dd77b5aafa1d0bc34a6a0c5283954a9\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\3dd77b5aafa1d0bc34a6a0c5283954a9\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\8895e5f83ffe8b612f6a9e7cd2fcbdef\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\8895e5f83ffe8b612f6a9e7cd2fcbdef\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\89fc749d66da102a76f938ee23127560\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\89fc749d66da102a76f938ee23127560\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\3f9695e27ec20ca271b20d5b52c06336\transformed\ui-test-manifest-1.7.6\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\3f9695e27ec20ca271b20d5b52c06336\transformed\ui-test-manifest-1.7.6\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\dfc42813a3284cbe65e40812aa1ca0c3\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\dfc42813a3284cbe65e40812aa1ca0c3\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\b0fb99416c166c1c3c8542f90317f143\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\b0fb99416c166c1c3c8542f90317f143\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.15.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\613da72296bf9046b5fbbf1d2387b009\transformed\core-1.15.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.15.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\613da72296bf9046b5fbbf1d2387b009\transformed\core-1.15.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\bffc60e872d3486f783c618ac91a200d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\bffc60e872d3486f783c618ac91a200d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\dec245a656bc59cfa26602aacb4cc03b\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\dec245a656bc59cfa26602aacb4cc03b\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\BadVolf\.gradle\caches\8.13\transforms\6700673cd5b2f564e2b6a3015fad79cc\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\BadVolf\.gradle\caches\8.13\transforms\6700673cd5b2f564e2b6a3015fad79cc\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\86e921e71de6d447b0afd641ceb20134\transformed\transport-runtime-2.2.6\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\86e921e71de6d447b0afd641ceb20134\transformed\transport-runtime-2.2.6\AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\0cbe6a741162cdcc6d7c47c017212a69\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\0cbe6a741162cdcc6d7c47c017212a69\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.play:core-common:2.0.4] C:\Users\BadVolf\.gradle\caches\8.13\transforms\6aaa6ecf06d7a8e872d502c40d69f2ed\transformed\core-common-2.0.4\AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.android.play:core-common:2.0.4] C:\Users\BadVolf\.gradle\caches\8.13\transforms\6aaa6ecf06d7a8e872d502c40d69f2ed\transformed\core-common-2.0.4\AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\d250c27a820ec51b17a0476d84b8c34f\transformed\image-1.0.0-beta1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\d250c27a820ec51b17a0476d84b8c34f\transformed\image-1.0.0-beta1\AndroidManifest.xml:7:5-20
+	android:extractNativeLibs
+		INJECTED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.15.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\613da72296bf9046b5fbbf1d2387b009\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:34:9-35
+	android:label
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:33:9-41
+	android:fullBackupContent
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:31:9-42
+	tools:targetApi
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:37:9-29
+	android:icon
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:32:9-43
+	android:allowBackup
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:29:9-36
+	android:theme
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:35:9-54
+	android:networkSecurityConfig
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:36:9-69
+	android:dataExtractionRules
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:30:9-65
+	android:name
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:28:9-39
+activity#com.securevote.remote.MainActivity
+ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:39:9-61:20
+	android:screenOrientation
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:42:13-49
+	android:windowSoftInputMode
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:43:13-55
+	android:exported
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:41:13-36
+	android:theme
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:44:13-58
+	android:name
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:40:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:45:13-48:29
+action#android.intent.action.MAIN
+ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:46:17-69
+	android:name
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:46:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:47:17-77
+	android:name
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:47:27-74
+intent-filter#action:name:android.nfc.action.NDEF_DISCOVERED+action:name:android.nfc.action.TAG_DISCOVERED+action:name:android.nfc.action.TECH_DISCOVERED+category:name:android.intent.category.DEFAULT
+ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:51:13-56:29
+action#android.nfc.action.NDEF_DISCOVERED
+ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:52:17-77
+	android:name
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:52:25-74
+action#android.nfc.action.TAG_DISCOVERED
+ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:53:17-76
+	android:name
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:53:25-73
+action#android.nfc.action.TECH_DISCOVERED
+ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:54:17-77
+	android:name
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:54:25-74
+category#android.intent.category.DEFAULT
+ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:55:17-76
+	android:name
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:55:27-73
+meta-data#android.nfc.action.TECH_DISCOVERED
+ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:58:13-60:59
+	android:resource
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:60:17-56
+	android:name
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:59:17-66
+meta-data#com.google.android.play.integrity.API_KEY
+ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:64:9-66:58
+	android:value
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:66:13-55
+	android:name
+		ADDED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml:65:13-69
+uses-sdk
+INJECTED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml
+INJECTED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml
+MERGED from [androidx.camera:camera-video:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\17c1418250a8a0965fc4ba294574f0da\transformed\camera-video-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-video:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\17c1418250a8a0965fc4ba294574f0da\transformed\camera-video-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-view:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\5ddc3935fd7c7ded93fdec224478ca72\transformed\camera-view-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-view:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\5ddc3935fd7c7ded93fdec224478ca72\transformed\camera-view-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\ea6a3180655269352f49704f15dbd7ca\transformed\camera-lifecycle-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\ea6a3180655269352f49704f15dbd7ca\transformed\camera-lifecycle-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-camera2:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\4bd2380a571f1b13e3586ba279b89d8b\transformed\camera-camera2-1.4.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-camera2:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\4bd2380a571f1b13e3586ba279b89d8b\transformed\camera-camera2-1.4.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\d9f6385a38999a799bdf3b57b398b3a5\transformed\camera-core-1.4.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\d9f6385a38999a799bdf3b57b398b3a5\transformed\camera-core-1.4.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.biometric:biometric:1.2.0-alpha05] C:\Users\BadVolf\.gradle\caches\8.13\transforms\cc6a9a3b4810dec0130308abf58d0d81\transformed\biometric-1.2.0-alpha05\AndroidManifest.xml:20:5-44
+MERGED from [androidx.biometric:biometric:1.2.0-alpha05] C:\Users\BadVolf\.gradle\caches\8.13\transforms\cc6a9a3b4810dec0130308abf58d0d81\transformed\biometric-1.2.0-alpha05\AndroidManifest.xml:20:5-44
+MERGED from [com.google.mlkit:face-detection:16.1.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\24d62a158e76c3abb769a182001f8642\transformed\face-detection-16.1.7\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:face-detection:16.1.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\24d62a158e76c3abb769a182001f8642\transformed\face-detection-16.1.7\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\e90f01a33b5b1df4d91b68a234eafeb8\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\e90f01a33b5b1df4d91b68a234eafeb8\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:barcode-scanning:17.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\e0f8f8c132b513a3f778bcc302e34023\transformed\barcode-scanning-17.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:barcode-scanning:17.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\e0f8f8c132b513a3f778bcc302e34023\transformed\barcode-scanning-17.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\39b8e7b5b3a4f6311b72f6b3b7ff698d\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\39b8e7b5b3a4f6311b72f6b3b7ff698d\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\8a380a627d4a4013b0ac4cf5820f396a\transformed\barcode-scanning-common-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\8a380a627d4a4013b0ac4cf5820f396a\transformed\barcode-scanning-common-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\2d52b981e10df4b57018e4010c3837b9\transformed\vision-common-17.3.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\2d52b981e10df4b57018e4010c3837b9\transformed\vision-common-17.3.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.11.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\1b2a60197c512070cd661bf48d1e14fa\transformed\common-18.11.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.11.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\1b2a60197c512070cd661bf48d1e14fa\transformed\common-18.11.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\0b160f3e119ea810b28d99ba705b71f7\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\0b160f3e119ea810b28d99ba705b71f7\transformed\play-services-base-18.5.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.play:integrity:1.4.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\0905dca5098e8491f120ead8a12ecef5\transformed\integrity-1.4.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.4.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\0905dca5098e8491f120ead8a12ecef5\transformed\integrity-1.4.0\AndroidManifest.xml:4:5-44
+MERGED from [com.google.mlkit:vision-interfaces:16.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\6cf58db99d1b84f989a32d1f2bae5ea4\transformed\vision-interfaces-16.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-interfaces:16.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\6cf58db99d1b84f989a32d1f2bae5ea4\transformed\vision-interfaces-16.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\3dd77b5aafa1d0bc34a6a0c5283954a9\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\3dd77b5aafa1d0bc34a6a0c5283954a9\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\8895e5f83ffe8b612f6a9e7cd2fcbdef\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\8895e5f83ffe8b612f6a9e7cd2fcbdef\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [androidx.hilt:hilt-navigation-compose:1.2.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\5996d940a9f7fb349271341739539c86\transformed\hilt-navigation-compose-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation-compose:1.2.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\5996d940a9f7fb349271341739539c86\transformed\hilt-navigation-compose-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation:1.2.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\3310350bda243dc2f877215e8f2b12e6\transformed\hilt-navigation-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation:1.2.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\3310350bda243dc2f877215e8f2b12e6\transformed\hilt-navigation-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.5] C:\Users\BadVolf\.gradle\caches\8.13\transforms\255e8f531e9898ab4fff2d5d6e062e78\transformed\navigation-common-2.8.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.5] C:\Users\BadVolf\.gradle\caches\8.13\transforms\255e8f531e9898ab4fff2d5d6e062e78\transformed\navigation-common-2.8.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.5] C:\Users\BadVolf\.gradle\caches\8.13\transforms\512a57f4ca332b7125ad2166bf349d8f\transformed\navigation-runtime-2.8.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.5] C:\Users\BadVolf\.gradle\caches\8.13\transforms\512a57f4ca332b7125ad2166bf349d8f\transformed\navigation-runtime-2.8.5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.5] C:\Users\BadVolf\.gradle\caches\8.13\transforms\16e3c5a66ad834406931f0a8c0dd0566\transformed\navigation-common-ktx-2.8.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.5] C:\Users\BadVolf\.gradle\caches\8.13\transforms\16e3c5a66ad834406931f0a8c0dd0566\transformed\navigation-common-ktx-2.8.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.5] C:\Users\BadVolf\.gradle\caches\8.13\transforms\b15c45d9cc867ce49b263fd49317cff7\transformed\navigation-runtime-ktx-2.8.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.5] C:\Users\BadVolf\.gradle\caches\8.13\transforms\b15c45d9cc867ce49b263fd49317cff7\transformed\navigation-runtime-ktx-2.8.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.5] C:\Users\BadVolf\.gradle\caches\8.13\transforms\b690c011d20c8936e66705970a25b25c\transformed\navigation-compose-2.8.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.5] C:\Users\BadVolf\.gradle\caches\8.13\transforms\b690c011d20c8936e66705970a25b25c\transformed\navigation-compose-2.8.5\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\fec66b45938097acbcbe09957a593843\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\fec66b45938097acbcbe09957a593843\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\cdb5fa80c01bca9293fe5d06709c9b4b\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\cdb5fa80c01bca9293fe5d06709c9b4b\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\4835e933512ebce3893b6151f16996e8\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\4835e933512ebce3893b6151f16996e8\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\4407e54b7a01af001e792dd9681366fc\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\4407e54b7a01af001e792dd9681366fc\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\d17e35ecf72695ab2dd91eb3c47bb252\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\d17e35ecf72695ab2dd91eb3c47bb252\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\aa9a6473ae215eb526b619db88dbe832\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\aa9a6473ae215eb526b619db88dbe832\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\8074906a7b07cc73399398acab169c55\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\8074906a7b07cc73399398acab169c55\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\1573838082622c9d56bbc8fd039f069d\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\1573838082622c9d56bbc8fd039f069d\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\947264fc9b1c3630d6a99fa6314fe844\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\947264fc9b1c3630d6a99fa6314fe844\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\5067bfd9f5de815fcfb43dcb2011ad9c\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\5067bfd9f5de815fcfb43dcb2011ad9c\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\fe751e6ebe53f572c243b97558e28c65\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\fe751e6ebe53f572c243b97558e28c65\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\0842e7ef5883bbe62c065656f4e527fd\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\0842e7ef5883bbe62c065656f4e527fd\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\89fc749d66da102a76f938ee23127560\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\89fc749d66da102a76f938ee23127560\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\28876e195f97117bd025780410cff8c9\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\28876e195f97117bd025780410cff8c9\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\53e66d98e5ace81941773ae40e41f4c5\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\53e66d98e5ace81941773ae40e41f4c5\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\3f9695e27ec20ca271b20d5b52c06336\transformed\ui-test-manifest-1.7.6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\3f9695e27ec20ca271b20d5b52c06336\transformed\ui-test-manifest-1.7.6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:hilt-android:2.51.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\cdf6a20503c5c1df35eb222e3c8fe9f8\transformed\hilt-android-2.51.1\AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.51.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\cdf6a20503c5c1df35eb222e3c8fe9f8\transformed\hilt-android-2.51.1\AndroidManifest.xml:18:3-42
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\9955f7e15dd8de32e6857904df9cd23e\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\9955f7e15dd8de32e6857904df9cd23e\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\e094acd3f9bceb25a08329ea13c82deb\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\e094acd3f9bceb25a08329ea13c82deb\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.5.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\89be57484fa6b36b740c6eb693b786f2\transformed\fragment-1.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\89be57484fa6b36b740c6eb693b786f2\transformed\fragment-1.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\BadVolf\.gradle\caches\8.13\transforms\7554d51605b750344f947285a3636551\transformed\activity-1.9.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.3] C:\Users\BadVolf\.gradle\caches\8.13\transforms\7554d51605b750344f947285a3636551\transformed\activity-1.9.3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\BadVolf\.gradle\caches\8.13\transforms\4e728dec7a99bd69c4a7c91283e5e3c8\transformed\activity-ktx-1.9.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] C:\Users\BadVolf\.gradle\caches\8.13\transforms\4e728dec7a99bd69c4a7c91283e5e3c8\transformed\activity-ktx-1.9.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.3] C:\Users\BadVolf\.gradle\caches\8.13\transforms\bac1a91aaf5d8c9dcae82cdccd051ad5\transformed\activity-compose-1.9.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.3] C:\Users\BadVolf\.gradle\caches\8.13\transforms\bac1a91aaf5d8c9dcae82cdccd051ad5\transformed\activity-compose-1.9.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\91787fcbc7348b30060ee15849468627\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\91787fcbc7348b30060ee15849468627\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\18ab2aee9addfea4b43f65d4c42027ed\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\18ab2aee9addfea4b43f65d4c42027ed\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\dfc42813a3284cbe65e40812aa1ca0c3\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\dfc42813a3284cbe65e40812aa1ca0c3\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\b0fb99416c166c1c3c8542f90317f143\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\b0fb99416c166c1c3c8542f90317f143\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\40bac99d399f04b756a293f4f9849348\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\40bac99d399f04b756a293f4f9849348\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\683e195e3722b8f86fee7fb0f77a55d9\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\683e195e3722b8f86fee7fb0f77a55d9\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\b759ea0757d76471343b544b71ea76f5\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\b759ea0757d76471343b544b71ea76f5\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\407b8b2b3daf3516505fe5d65f71b1ca\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\407b8b2b3daf3516505fe5d65f71b1ca\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\46cd6e027a9e6d45553ca94d899b2488\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\46cd6e027a9e6d45553ca94d899b2488\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\fa320499497006ccee712c76e0ca69df\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\fa320499497006ccee712c76e0ca69df\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\6c125d3aa6ef0728997c3099492b2000\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\6c125d3aa6ef0728997c3099492b2000\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\818f0c77cc5ff0cd9093a2bc3d16785d\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\818f0c77cc5ff0cd9093a2bc3d16785d\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\5c445ed6390ee29bd5a140f3edc1e3c2\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\5c445ed6390ee29bd5a140f3edc1e3c2\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\02e154ae91341655be58bdc78577025c\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\02e154ae91341655be58bdc78577025c\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\fc7e0618203cfa832b47bdb93bf009bd\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\fc7e0618203cfa832b47bdb93bf009bd\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\fc49327012566e762a8790b55ae23f62\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\fc49327012566e762a8790b55ae23f62\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\d6b50715c8bcb57c720ca4466805250e\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\d6b50715c8bcb57c720ca4466805250e\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\cd0cbdd7330daa2e05fc22f72e3eef8c\transformed\material-icons-extended-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\cd0cbdd7330daa2e05fc22f72e3eef8c\transformed\material-icons-extended-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\aea1f3076632d84615307f96c1c8354c\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\aea1f3076632d84615307f96c1c8354c\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\92be701b756b38bfee00b1c44af73bce\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\92be701b756b38bfee00b1c44af73bce\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\1db8c248c15d58f2c24ffc6d76ab494b\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\1db8c248c15d58f2c24ffc6d76ab494b\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\b93c2f6a933b7005b0fd4a22f1d50c88\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\b93c2f6a933b7005b0fd4a22f1d50c88\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\676e8e60fe51cf6135ebd06a506a91df\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\676e8e60fe51cf6135ebd06a506a91df\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\ed6741c302fc9841b6b7adbfe3e62cab\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\ed6741c302fc9841b6b7adbfe3e62cab\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\c7b83a5dbbdd86a14b4234dc2a5254b0\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\c7b83a5dbbdd86a14b4234dc2a5254b0\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\7a26eb539c1dd72087adf01233baf29e\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\7a26eb539c1dd72087adf01233baf29e\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\62dc7026414ae0c8f2339e98e7b54e77\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\62dc7026414ae0c8f2339e98e7b54e77\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.15.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\613da72296bf9046b5fbbf1d2387b009\transformed\core-1.15.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.15.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\613da72296bf9046b5fbbf1d2387b009\transformed\core-1.15.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\6cad7bfbd1dd1ce7632927a739e3c53b\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\6cad7bfbd1dd1ce7632927a739e3c53b\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.15.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\9068877d43df787108608c1f38fd89d4\transformed\core-ktx-1.15.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.15.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\9068877d43df787108608c1f38fd89d4\transformed\core-ktx-1.15.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\ed929e7b89aca5c8247a2d3d6e4a37ab\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\ed929e7b89aca5c8247a2d3d6e4a37ab\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\3eb7d3f7239ed06707f785b6b53c0e36\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\3eb7d3f7239ed06707f785b6b53c0e36\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\6e429fd60e8e27f4f5ed4953cc359a1a\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\6e429fd60e8e27f4f5ed4953cc359a1a\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\bffc60e872d3486f783c618ac91a200d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\bffc60e872d3486f783c618ac91a200d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\dec245a656bc59cfa26602aacb4cc03b\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\dec245a656bc59cfa26602aacb4cc03b\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\2d545eeaf722010a0d6705b28f40b94f\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\2d545eeaf722010a0d6705b28f40b94f\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\9d7b8e6ad1fc5ba5cb34e8145bbfbbe5\transformed\tracing-ktx-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\9d7b8e6ad1fc5ba5cb34e8145bbfbbe5\transformed\tracing-ktx-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\355fea73c3a10e5de6deb97cb3689365\transformed\datastore-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\355fea73c3a10e5de6deb97cb3689365\transformed\datastore-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\7a3daab79c854e76614fa3e0a6e96c95\transformed\datastore-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\7a3daab79c854e76614fa3e0a6e96c95\transformed\datastore-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\9d8efa990d0664f3c6f4963a455814f4\transformed\datastore-preferences-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\9d8efa990d0664f3c6f4963a455814f4\transformed\datastore-preferences-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.security:security-crypto:1.1.0-alpha06] C:\Users\BadVolf\.gradle\caches\8.13\transforms\5c318e69bc2b01ad6787f1dfe801ec68\transformed\security-crypto-1.1.0-alpha06\AndroidManifest.xml:20:5-44
+MERGED from [androidx.security:security-crypto:1.1.0-alpha06] C:\Users\BadVolf\.gradle\caches\8.13\transforms\5c318e69bc2b01ad6787f1dfe801ec68\transformed\security-crypto-1.1.0-alpha06\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\BadVolf\.gradle\caches\8.13\transforms\8a4e1ad53db61cfc2e66e2aa610e41f4\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\BadVolf\.gradle\caches\8.13\transforms\8a4e1ad53db61cfc2e66e2aa610e41f4\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\BadVolf\.gradle\caches\8.13\transforms\6700673cd5b2f564e2b6a3015fad79cc\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\BadVolf\.gradle\caches\8.13\transforms\6700673cd5b2f564e2b6a3015fad79cc\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\86e921e71de6d447b0afd641ceb20134\transformed\transport-runtime-2.2.6\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\86e921e71de6d447b0afd641ceb20134\transformed\transport-runtime-2.2.6\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\2213dd59ff1e7df765f9f404648a44fc\transformed\transport-api-2.2.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\2213dd59ff1e7df765f9f404648a44fc\transformed\transport-api-2.2.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\d5f2d0a06adad4c5cf78b8c089b42407\transformed\firebase-components-16.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\d5f2d0a06adad4c5cf78b8c089b42407\transformed\firebase-components-16.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\061638d9c1d1f82d5ab8afeab2cd597e\transformed\firebase-encoders-json-17.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\061638d9c1d1f82d5ab8afeab2cd597e\transformed\firebase-encoders-json-17.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\9a0957a7200ec6eb3f6a14f85a6bbaa9\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\9a0957a7200ec6eb3f6a14f85a6bbaa9\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\0cbe6a741162cdcc6d7c47c017212a69\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\0cbe6a741162cdcc6d7c47c017212a69\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\5db67d77619b09434feb33dde4d5c628\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\5db67d77619b09434feb33dde4d5c628\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\989693e900ef33b46832396d63183d81\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\989693e900ef33b46832396d63183d81\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-lint-aar:2.51.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\e407cc1a28e47aa3f084f1936feb962c\transformed\dagger-lint-aar-2.51.1\AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.51.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\e407cc1a28e47aa3f084f1936feb962c\transformed\dagger-lint-aar-2.51.1\AndroidManifest.xml:18:3-42
+MERGED from [com.google.android.play:core-common:2.0.4] C:\Users\BadVolf\.gradle\caches\8.13\transforms\6aaa6ecf06d7a8e872d502c40d69f2ed\transformed\core-common-2.0.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:core-common:2.0.4] C:\Users\BadVolf\.gradle\caches\8.13\transforms\6aaa6ecf06d7a8e872d502c40d69f2ed\transformed\core-common-2.0.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\d250c27a820ec51b17a0476d84b8c34f\transformed\image-1.0.0-beta1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\d250c27a820ec51b17a0476d84b8c34f\transformed\image-1.0.0-beta1\AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Users\BadVolf\Documents\Projects\SecureVoteRemote\app\src\main\AndroidManifest.xml
+service#androidx.camera.core.impl.MetadataHolderService
+ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\4bd2380a571f1b13e3586ba279b89d8b\transformed\camera-camera2-1.4.1\AndroidManifest.xml:24:9-33:19
+MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\d9f6385a38999a799bdf3b57b398b3a5\transformed\camera-core-1.4.1\AndroidManifest.xml:29:9-33:78
+MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\d9f6385a38999a799bdf3b57b398b3a5\transformed\camera-core-1.4.1\AndroidManifest.xml:29:9-33:78
+	tools:node
+		ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\4bd2380a571f1b13e3586ba279b89d8b\transformed\camera-camera2-1.4.1\AndroidManifest.xml:29:13-31
+	android:enabled
+		ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\4bd2380a571f1b13e3586ba279b89d8b\transformed\camera-camera2-1.4.1\AndroidManifest.xml:26:13-36
+	android:exported
+		ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\4bd2380a571f1b13e3586ba279b89d8b\transformed\camera-camera2-1.4.1\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\4bd2380a571f1b13e3586ba279b89d8b\transformed\camera-camera2-1.4.1\AndroidManifest.xml:28:13-75
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\4bd2380a571f1b13e3586ba279b89d8b\transformed\camera-camera2-1.4.1\AndroidManifest.xml:25:13-75
+meta-data#androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER
+ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\4bd2380a571f1b13e3586ba279b89d8b\transformed\camera-camera2-1.4.1\AndroidManifest.xml:30:13-32:89
+	android:value
+		ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\4bd2380a571f1b13e3586ba279b89d8b\transformed\camera-camera2-1.4.1\AndroidManifest.xml:32:17-86
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\4bd2380a571f1b13e3586ba279b89d8b\transformed\camera-camera2-1.4.1\AndroidManifest.xml:31:17-103
+uses-permission#android.permission.USE_BIOMETRIC
+ADDED from [androidx.biometric:biometric:1.2.0-alpha05] C:\Users\BadVolf\.gradle\caches\8.13\transforms\cc6a9a3b4810dec0130308abf58d0d81\transformed\biometric-1.2.0-alpha05\AndroidManifest.xml:22:5-72
+	android:name
+		ADDED from [androidx.biometric:biometric:1.2.0-alpha05] C:\Users\BadVolf\.gradle\caches\8.13\transforms\cc6a9a3b4810dec0130308abf58d0d81\transformed\biometric-1.2.0-alpha05\AndroidManifest.xml:22:22-69
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from [androidx.biometric:biometric:1.2.0-alpha05] C:\Users\BadVolf\.gradle\caches\8.13\transforms\cc6a9a3b4810dec0130308abf58d0d81\transformed\biometric-1.2.0-alpha05\AndroidManifest.xml:25:5-74
+	android:name
+		ADDED from [androidx.biometric:biometric:1.2.0-alpha05] C:\Users\BadVolf\.gradle\caches\8.13\transforms\cc6a9a3b4810dec0130308abf58d0d81\transformed\biometric-1.2.0-alpha05\AndroidManifest.xml:25:22-71
+service#com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\e90f01a33b5b1df4d91b68a234eafeb8\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\39b8e7b5b3a4f6311b72f6b3b7ff698d\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\39b8e7b5b3a4f6311b72f6b3b7ff698d\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\2d52b981e10df4b57018e4010c3837b9\transformed\vision-common-17.3.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\2d52b981e10df4b57018e4010c3837b9\transformed\vision-common-17.3.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:common:18.11.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\1b2a60197c512070cd661bf48d1e14fa\transformed\common-18.11.0\AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.mlkit:common:18.11.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\1b2a60197c512070cd661bf48d1e14fa\transformed\common-18.11.0\AndroidManifest.xml:15:9-23:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\e90f01a33b5b1df4d91b68a234eafeb8\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:11:13-37
+	tools:targetApi
+		ADDED from [com.google.mlkit:common:18.11.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\1b2a60197c512070cd661bf48d1e14fa\transformed\common-18.11.0\AndroidManifest.xml:19:13-32
+	android:directBootAware
+		ADDED from [com.google.mlkit:common:18.11.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\1b2a60197c512070cd661bf48d1e14fa\transformed\common-18.11.0\AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\e90f01a33b5b1df4d91b68a234eafeb8\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:10:13-91
+meta-data#com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\e90f01a33b5b1df4d91b68a234eafeb8\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\e90f01a33b5b1df4d91b68a234eafeb8\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\e90f01a33b5b1df4d91b68a234eafeb8\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:13:17-114
+meta-data#com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\39b8e7b5b3a4f6311b72f6b3b7ff698d\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\39b8e7b5b3a4f6311b72f6b3b7ff698d\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\39b8e7b5b3a4f6311b72f6b3b7ff698d\transformed\play-services-mlkit-barcode-scanning-18.3.1\AndroidManifest.xml:13:17-120
+meta-data#com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar
+ADDED from [com.google.mlkit:vision-common:17.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\2d52b981e10df4b57018e4010c3837b9\transformed\vision-common-17.3.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.mlkit:vision-common:17.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\2d52b981e10df4b57018e4010c3837b9\transformed\vision-common-17.3.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-common:17.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\2d52b981e10df4b57018e4010c3837b9\transformed\vision-common-17.3.0\AndroidManifest.xml:13:17-124
+provider#com.google.mlkit.common.internal.MlKitInitProvider
+ADDED from [com.google.mlkit:common:18.11.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\1b2a60197c512070cd661bf48d1e14fa\transformed\common-18.11.0\AndroidManifest.xml:9:9-13:38
+	android:authorities
+		ADDED from [com.google.mlkit:common:18.11.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\1b2a60197c512070cd661bf48d1e14fa\transformed\common-18.11.0\AndroidManifest.xml:11:13-69
+	android:exported
+		ADDED from [com.google.mlkit:common:18.11.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\1b2a60197c512070cd661bf48d1e14fa\transformed\common-18.11.0\AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.mlkit:common:18.11.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\1b2a60197c512070cd661bf48d1e14fa\transformed\common-18.11.0\AndroidManifest.xml:13:13-35
+	android:name
+		ADDED from [com.google.mlkit:common:18.11.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\1b2a60197c512070cd661bf48d1e14fa\transformed\common-18.11.0\AndroidManifest.xml:10:13-78
+meta-data#com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar
+ADDED from [com.google.mlkit:common:18.11.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\1b2a60197c512070cd661bf48d1e14fa\transformed\common-18.11.0\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.mlkit:common:18.11.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\1b2a60197c512070cd661bf48d1e14fa\transformed\common-18.11.0\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.mlkit:common:18.11.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\1b2a60197c512070cd661bf48d1e14fa\transformed\common-18.11.0\AndroidManifest.xml:21:17-120
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\0b160f3e119ea810b28d99ba705b71f7\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\0b160f3e119ea810b28d99ba705b71f7\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\0b160f3e119ea810b28d99ba705b71f7\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\0b160f3e119ea810b28d99ba705b71f7\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\8895e5f83ffe8b612f6a9e7cd2fcbdef\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\8895e5f83ffe8b612f6a9e7cd2fcbdef\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\8895e5f83ffe8b612f6a9e7cd2fcbdef\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\89fc749d66da102a76f938ee23127560\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\89fc749d66da102a76f938ee23127560\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\89fc749d66da102a76f938ee23127560\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\3f9695e27ec20ca271b20d5b52c06336\transformed\ui-test-manifest-1.7.6\AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\3f9695e27ec20ca271b20d5b52c06336\transformed\ui-test-manifest-1.7.6\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\3f9695e27ec20ca271b20d5b52c06336\transformed\ui-test-manifest-1.7.6\AndroidManifest.xml:24:13-63
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\dfc42813a3284cbe65e40812aa1ca0c3\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\b0fb99416c166c1c3c8542f90317f143\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\b0fb99416c166c1c3c8542f90317f143\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\bffc60e872d3486f783c618ac91a200d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\bffc60e872d3486f783c618ac91a200d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\dec245a656bc59cfa26602aacb4cc03b\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\dec245a656bc59cfa26602aacb4cc03b\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\dfc42813a3284cbe65e40812aa1ca0c3\transformed\emoji2-1.3.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\dfc42813a3284cbe65e40812aa1ca0c3\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\dfc42813a3284cbe65e40812aa1ca0c3\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\dfc42813a3284cbe65e40812aa1ca0c3\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\dfc42813a3284cbe65e40812aa1ca0c3\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\dfc42813a3284cbe65e40812aa1ca0c3\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\dfc42813a3284cbe65e40812aa1ca0c3\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\b0fb99416c166c1c3c8542f90317f143\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\b0fb99416c166c1c3c8542f90317f143\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\BadVolf\.gradle\caches\8.13\transforms\b0fb99416c166c1c3c8542f90317f143\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\613da72296bf9046b5fbbf1d2387b009\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\613da72296bf9046b5fbbf1d2387b009\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\613da72296bf9046b5fbbf1d2387b009\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+permission#com.securevote.remote.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\613da72296bf9046b5fbbf1d2387b009\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\613da72296bf9046b5fbbf1d2387b009\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\613da72296bf9046b5fbbf1d2387b009\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\613da72296bf9046b5fbbf1d2387b009\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\613da72296bf9046b5fbbf1d2387b009\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+uses-permission#com.securevote.remote.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\613da72296bf9046b5fbbf1d2387b009\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] C:\Users\BadVolf\.gradle\caches\8.13\transforms\613da72296bf9046b5fbbf1d2387b009\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\bffc60e872d3486f783c618ac91a200d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\bffc60e872d3486f783c618ac91a200d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\bffc60e872d3486f783c618ac91a200d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\bffc60e872d3486f783c618ac91a200d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\bffc60e872d3486f783c618ac91a200d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\bffc60e872d3486f783c618ac91a200d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\bffc60e872d3486f783c618ac91a200d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\bffc60e872d3486f783c618ac91a200d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\bffc60e872d3486f783c618ac91a200d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\bffc60e872d3486f783c618ac91a200d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\bffc60e872d3486f783c618ac91a200d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\bffc60e872d3486f783c618ac91a200d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\bffc60e872d3486f783c618ac91a200d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\bffc60e872d3486f783c618ac91a200d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\bffc60e872d3486f783c618ac91a200d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\bffc60e872d3486f783c618ac91a200d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\bffc60e872d3486f783c618ac91a200d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\bffc60e872d3486f783c618ac91a200d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\bffc60e872d3486f783c618ac91a200d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\bffc60e872d3486f783c618ac91a200d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\BadVolf\.gradle\caches\8.13\transforms\bffc60e872d3486f783c618ac91a200d\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\BadVolf\.gradle\caches\8.13\transforms\6700673cd5b2f564e2b6a3015fad79cc\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\86e921e71de6d447b0afd641ceb20134\transformed\transport-runtime-2.2.6\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\86e921e71de6d447b0afd641ceb20134\transformed\transport-runtime-2.2.6\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\BadVolf\.gradle\caches\8.13\transforms\6700673cd5b2f564e2b6a3015fad79cc\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\BadVolf\.gradle\caches\8.13\transforms\6700673cd5b2f564e2b6a3015fad79cc\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\BadVolf\.gradle\caches\8.13\transforms\6700673cd5b2f564e2b6a3015fad79cc\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\BadVolf\.gradle\caches\8.13\transforms\6700673cd5b2f564e2b6a3015fad79cc\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\BadVolf\.gradle\caches\8.13\transforms\6700673cd5b2f564e2b6a3015fad79cc\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\86e921e71de6d447b0afd641ceb20134\transformed\transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\86e921e71de6d447b0afd641ceb20134\transformed\transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\86e921e71de6d447b0afd641ceb20134\transformed\transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\86e921e71de6d447b0afd641ceb20134\transformed\transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\86e921e71de6d447b0afd641ceb20134\transformed\transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\86e921e71de6d447b0afd641ceb20134\transformed\transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\BadVolf\.gradle\caches\8.13\transforms\86e921e71de6d447b0afd641ceb20134\transformed\transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+ADDED from [com.google.android.play:core-common:2.0.4] C:\Users\BadVolf\.gradle\caches\8.13\transforms\6aaa6ecf06d7a8e872d502c40d69f2ed\transformed\core-common-2.0.4\AndroidManifest.xml:14:9-18:65
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core-common:2.0.4] C:\Users\BadVolf\.gradle\caches\8.13\transforms\6aaa6ecf06d7a8e872d502c40d69f2ed\transformed\core-common-2.0.4\AndroidManifest.xml:17:13-42
+	android:exported
+		ADDED from [com.google.android.play:core-common:2.0.4] C:\Users\BadVolf\.gradle\caches\8.13\transforms\6aaa6ecf06d7a8e872d502c40d69f2ed\transformed\core-common-2.0.4\AndroidManifest.xml:16:13-37
+	android:theme
+		ADDED from [com.google.android.play:core-common:2.0.4] C:\Users\BadVolf\.gradle\caches\8.13\transforms\6aaa6ecf06d7a8e872d502c40d69f2ed\transformed\core-common-2.0.4\AndroidManifest.xml:18:13-62
+	android:name
+		ADDED from [com.google.android.play:core-common:2.0.4] C:\Users\BadVolf\.gradle\caches\8.13\transforms\6aaa6ecf06d7a8e872d502c40d69f2ed\transformed\core-common-2.0.4\AndroidManifest.xml:15:13-93
