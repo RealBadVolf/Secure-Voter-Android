@@ -12,5 +12,5 @@ public final class BuildConfig {
   // Field from default config.
   public static final String PROTOCOL_VERSION = "1";
   // Field from default config.
-  public static final String SVR_GATEWAY_URL = "https://remote.securevote.gov/api/v1";
+  public static final String SVR_GATEWAY_URL = "https://api.badvolf.com/api/v1";
 }

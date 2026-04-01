@@ -10,7 +10,6 @@ import androidx.lifecycle.ViewModelProvider;
 import dagger.hilt.android.internal.lifecycle.DefaultViewModelFactories;
 import dagger.hilt.android.internal.managers.ActivityComponentManager;
 import dagger.hilt.android.internal.managers.SavedStateHandleHolder;
-import dagger.hilt.internal.GeneratedComponentManager;
 import dagger.hilt.internal.GeneratedComponentManagerHolder;
 import dagger.hilt.internal.UnsafeCasts;
 import java.lang.Object;
@@ -50,11 +49,9 @@ public abstract class Hilt_MainActivity extends ComponentActivity implements Gen
   }
 
   private void initSavedStateHandleHolder() {
-    if (getApplication() instanceof GeneratedComponentManager) {
-      savedStateHandleHolder = componentManager().getSavedStateHandleHolder();
-      if (savedStateHandleHolder.isInvalid()) {
-        savedStateHandleHolder.setExtras(getDefaultViewModelCreationExtras());
-      }
+    savedStateHandleHolder = componentManager().getSavedStateHandleHolder();
+    if (savedStateHandleHolder.isInvalid()) {
+      savedStateHandleHolder.setExtras(getDefaultViewModelCreationExtras());
     }
   }
 

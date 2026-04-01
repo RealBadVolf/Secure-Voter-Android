@@ -6,8 +6,6 @@ import dagger.internal.Preconditions;
 import dagger.internal.QualifierMetadata;
 import dagger.internal.ScopeMetadata;
 import javax.annotation.processing.Generated;
-import javax.inject.Provider;
-import okhttp3.CertificatePinner;
 import okhttp3.OkHttpClient;
 
 @ScopeMetadata("javax.inject.Singleton")
@@ -22,26 +20,25 @@ import okhttp3.OkHttpClient;
     "rawtypes",
     "KotlinInternal",
     "KotlinInternalInJava",
-    "cast"
+    "cast",
+    "deprecation",
+    "nullness:initialization.field.uninitialized"
 })
 public final class NetworkModule_ProvideOkHttpClientFactory implements Factory<OkHttpClient> {
-  private final Provider<CertificatePinner> pinnerProvider;
-
-  public NetworkModule_ProvideOkHttpClientFactory(Provider<CertificatePinner> pinnerProvider) {
-    this.pinnerProvider = pinnerProvider;
-  }
-
   @Override
   public OkHttpClient get() {
-    return provideOkHttpClient(pinnerProvider.get());
+    return provideOkHttpClient();
   }
 
-  public static NetworkModule_ProvideOkHttpClientFactory create(
-      Provider<CertificatePinner> pinnerProvider) {
-    return new NetworkModule_ProvideOkHttpClientFactory(pinnerProvider);
+  public static NetworkModule_ProvideOkHttpClientFactory create() {
+    return InstanceHolder.INSTANCE;
   }
 
-  public static OkHttpClient provideOkHttpClient(CertificatePinner pinner) {
-    return Preconditions.checkNotNullFromProvides(NetworkModule.INSTANCE.provideOkHttpClient(pinner));
+  public static OkHttpClient provideOkHttpClient() {
+    return Preconditions.checkNotNullFromProvides(NetworkModule.INSTANCE.provideOkHttpClient());
+  }
+
+  private static final class InstanceHolder {
+    static final NetworkModule_ProvideOkHttpClientFactory INSTANCE = new NetworkModule_ProvideOkHttpClientFactory();
   }
 }

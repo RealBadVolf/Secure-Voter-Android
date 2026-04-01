@@ -6,15 +6,6 @@ import android.view.View;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.SavedStateHandle;
 import androidx.lifecycle.ViewModel;
-import com.securevote.remote.data.api.NetworkModule_ProvideCertificatePinnerFactory;
-import com.securevote.remote.data.api.NetworkModule_ProvideOkHttpClientFactory;
-import com.securevote.remote.data.api.NetworkModule_ProvideRetrofitFactory;
-import com.securevote.remote.data.api.NetworkModule_ProvideSVRGatewayApiFactory;
-import com.securevote.remote.data.api.SVRGatewayApi;
-import com.securevote.remote.data.repository.RepositoryModule_ProvideSVRRepositoryFactory;
-import com.securevote.remote.data.repository.SVRRepository;
-import com.securevote.remote.ui.SVRViewModel;
-import com.securevote.remote.ui.SVRViewModel_HiltModules;
 import dagger.hilt.android.ActivityRetainedLifecycle;
 import dagger.hilt.android.ViewModelLifecycle;
 import dagger.hilt.android.internal.builders.ActivityComponentBuilder;
@@ -31,18 +22,12 @@ import dagger.hilt.android.internal.managers.SavedStateHandleHolder;
 import dagger.hilt.android.internal.modules.ApplicationContextModule;
 import dagger.internal.DaggerGenerated;
 import dagger.internal.DoubleCheck;
-import dagger.internal.IdentifierNameString;
-import dagger.internal.KeepFieldType;
-import dagger.internal.LazyClassKeyMap;
 import dagger.internal.Preconditions;
-import dagger.internal.Provider;
 import java.util.Collections;
 import java.util.Map;
 import java.util.Set;
 import javax.annotation.processing.Generated;
-import okhttp3.CertificatePinner;
-import okhttp3.OkHttpClient;
-import retrofit2.Retrofit;
+import javax.inject.Provider;
 
 @DaggerGenerated
 @Generated(
@@ -54,7 +39,9 @@ import retrofit2.Retrofit;
     "rawtypes",
     "KotlinInternal",
     "KotlinInternalInJava",
-    "cast"
+    "cast",
+    "deprecation",
+    "nullness:initialization.field.uninitialized"
 })
 public final class DaggerSVRApplication_HiltComponents_SingletonC {
   private DaggerSVRApplication_HiltComponents_SingletonC() {
@@ -294,7 +281,7 @@ public final class DaggerSVRApplication_HiltComponents_SingletonC {
 
     private final ViewWithFragmentCImpl viewWithFragmentCImpl = this;
 
-    private ViewWithFragmentCImpl(SingletonCImpl singletonCImpl,
+    ViewWithFragmentCImpl(SingletonCImpl singletonCImpl,
         ActivityRetainedCImpl activityRetainedCImpl, ActivityCImpl activityCImpl,
         FragmentCImpl fragmentCImpl, View viewParam) {
       this.singletonCImpl = singletonCImpl;
@@ -315,9 +302,8 @@ public final class DaggerSVRApplication_HiltComponents_SingletonC {
 
     private final FragmentCImpl fragmentCImpl = this;
 
-    private FragmentCImpl(SingletonCImpl singletonCImpl,
-        ActivityRetainedCImpl activityRetainedCImpl, ActivityCImpl activityCImpl,
-        Fragment fragmentParam) {
+    FragmentCImpl(SingletonCImpl singletonCImpl, ActivityRetainedCImpl activityRetainedCImpl,
+        ActivityCImpl activityCImpl, Fragment fragmentParam) {
       this.singletonCImpl = singletonCImpl;
       this.activityRetainedCImpl = activityRetainedCImpl;
       this.activityCImpl = activityCImpl;
@@ -345,7 +331,7 @@ public final class DaggerSVRApplication_HiltComponents_SingletonC {
 
     private final ViewCImpl viewCImpl = this;
 
-    private ViewCImpl(SingletonCImpl singletonCImpl, ActivityRetainedCImpl activityRetainedCImpl,
+    ViewCImpl(SingletonCImpl singletonCImpl, ActivityRetainedCImpl activityRetainedCImpl,
         ActivityCImpl activityCImpl, View viewParam) {
       this.singletonCImpl = singletonCImpl;
       this.activityRetainedCImpl = activityRetainedCImpl;
@@ -362,8 +348,8 @@ public final class DaggerSVRApplication_HiltComponents_SingletonC {
 
     private final ActivityCImpl activityCImpl = this;
 
-    private ActivityCImpl(SingletonCImpl singletonCImpl,
-        ActivityRetainedCImpl activityRetainedCImpl, Activity activityParam) {
+    ActivityCImpl(SingletonCImpl singletonCImpl, ActivityRetainedCImpl activityRetainedCImpl,
+        Activity activityParam) {
       this.singletonCImpl = singletonCImpl;
       this.activityRetainedCImpl = activityRetainedCImpl;
 
@@ -376,12 +362,12 @@ public final class DaggerSVRApplication_HiltComponents_SingletonC {
 
     @Override
     public DefaultViewModelFactories.InternalFactoryFactory getHiltInternalFactoryFactory() {
-      return DefaultViewModelFactories_InternalFactoryFactory_Factory.newInstance(getViewModelKeys(), new ViewModelCBuilder(singletonCImpl, activityRetainedCImpl));
+      return DefaultViewModelFactories_InternalFactoryFactory_Factory.newInstance(Collections.<Class<?>, Boolean>emptyMap(), new ViewModelCBuilder(singletonCImpl, activityRetainedCImpl));
     }
 
     @Override
     public Map<Class<?>, Boolean> getViewModelKeys() {
-      return LazyClassKeyMap.<Boolean>of(Collections.<String, Boolean>singletonMap(LazyClassKeyProvider.com_securevote_remote_ui_SVRViewModel, SVRViewModel_HiltModules.KeyModule.provide()));
+      return Collections.<Class<?>, Boolean>emptyMap();
     }
 
     @Override
@@ -398,14 +384,6 @@ public final class DaggerSVRApplication_HiltComponents_SingletonC {
     public ViewComponentBuilder viewComponentBuilder() {
       return new ViewCBuilder(singletonCImpl, activityRetainedCImpl, activityCImpl);
     }
-
-    @IdentifierNameString
-    private static final class LazyClassKeyProvider {
-      static String com_securevote_remote_ui_SVRViewModel = "com.securevote.remote.ui.SVRViewModel";
-
-      @KeepFieldType
-      SVRViewModel com_securevote_remote_ui_SVRViewModel2;
-    }
   }
 
   private static final class ViewModelCImpl extends SVRApplication_HiltComponents.ViewModelC {
@@ -415,69 +393,22 @@ public final class DaggerSVRApplication_HiltComponents_SingletonC {
 
     private final ViewModelCImpl viewModelCImpl = this;
 
-    private Provider<SVRViewModel> sVRViewModelProvider;
-
-    private ViewModelCImpl(SingletonCImpl singletonCImpl,
-        ActivityRetainedCImpl activityRetainedCImpl, SavedStateHandle savedStateHandleParam,
-        ViewModelLifecycle viewModelLifecycleParam) {
+    ViewModelCImpl(SingletonCImpl singletonCImpl, ActivityRetainedCImpl activityRetainedCImpl,
+        SavedStateHandle savedStateHandleParam, ViewModelLifecycle viewModelLifecycleParam) {
       this.singletonCImpl = singletonCImpl;
       this.activityRetainedCImpl = activityRetainedCImpl;
 
-      initialize(savedStateHandleParam, viewModelLifecycleParam);
 
-    }
-
-    @SuppressWarnings("unchecked")
-    private void initialize(final SavedStateHandle savedStateHandleParam,
-        final ViewModelLifecycle viewModelLifecycleParam) {
-      this.sVRViewModelProvider = new SwitchingProvider<>(singletonCImpl, activityRetainedCImpl, viewModelCImpl, 0);
     }
 
     @Override
-    public Map<Class<?>, javax.inject.Provider<ViewModel>> getHiltViewModelMap() {
-      return LazyClassKeyMap.<javax.inject.Provider<ViewModel>>of(Collections.<String, javax.inject.Provider<ViewModel>>singletonMap(LazyClassKeyProvider.com_securevote_remote_ui_SVRViewModel, ((Provider) sVRViewModelProvider)));
+    public Map<Class<?>, Provider<ViewModel>> getHiltViewModelMap() {
+      return Collections.<Class<?>, Provider<ViewModel>>emptyMap();
     }
 
     @Override
     public Map<Class<?>, Object> getHiltViewModelAssistedMap() {
       return Collections.<Class<?>, Object>emptyMap();
-    }
-
-    @IdentifierNameString
-    private static final class LazyClassKeyProvider {
-      static String com_securevote_remote_ui_SVRViewModel = "com.securevote.remote.ui.SVRViewModel";
-
-      @KeepFieldType
-      SVRViewModel com_securevote_remote_ui_SVRViewModel2;
-    }
-
-    private static final class SwitchingProvider<T> implements Provider<T> {
-      private final SingletonCImpl singletonCImpl;
-
-      private final ActivityRetainedCImpl activityRetainedCImpl;
-
-      private final ViewModelCImpl viewModelCImpl;
-
-      private final int id;
-
-      SwitchingProvider(SingletonCImpl singletonCImpl, ActivityRetainedCImpl activityRetainedCImpl,
-          ViewModelCImpl viewModelCImpl, int id) {
-        this.singletonCImpl = singletonCImpl;
-        this.activityRetainedCImpl = activityRetainedCImpl;
-        this.viewModelCImpl = viewModelCImpl;
-        this.id = id;
-      }
-
-      @SuppressWarnings("unchecked")
-      @Override
-      public T get() {
-        switch (id) {
-          case 0: // com.securevote.remote.ui.SVRViewModel 
-          return (T) new SVRViewModel(singletonCImpl.provideSVRRepositoryProvider.get());
-
-          default: throw new AssertionError(id);
-        }
-      }
     }
   }
 
@@ -486,9 +417,9 @@ public final class DaggerSVRApplication_HiltComponents_SingletonC {
 
     private final ActivityRetainedCImpl activityRetainedCImpl = this;
 
-    private Provider<ActivityRetainedLifecycle> provideActivityRetainedLifecycleProvider;
+    dagger.internal.Provider<ActivityRetainedLifecycle> provideActivityRetainedLifecycleProvider;
 
-    private ActivityRetainedCImpl(SingletonCImpl singletonCImpl,
+    ActivityRetainedCImpl(SingletonCImpl singletonCImpl,
         SavedStateHandleHolder savedStateHandleHolderParam) {
       this.singletonCImpl = singletonCImpl;
 
@@ -511,7 +442,7 @@ public final class DaggerSVRApplication_HiltComponents_SingletonC {
       return provideActivityRetainedLifecycleProvider.get();
     }
 
-    private static final class SwitchingProvider<T> implements Provider<T> {
+    private static final class SwitchingProvider<T> implements dagger.internal.Provider<T> {
       private final SingletonCImpl singletonCImpl;
 
       private final ActivityRetainedCImpl activityRetainedCImpl;
@@ -525,11 +456,11 @@ public final class DaggerSVRApplication_HiltComponents_SingletonC {
         this.id = id;
       }
 
-      @SuppressWarnings("unchecked")
       @Override
+      @SuppressWarnings("unchecked")
       public T get() {
         switch (id) {
-          case 0: // dagger.hilt.android.ActivityRetainedLifecycle 
+          case 0: // dagger.hilt.android.ActivityRetainedLifecycle
           return (T) ActivityRetainedComponentManager_LifecycleModule_ProvideActivityRetainedLifecycleFactory.provideActivityRetainedLifecycle();
 
           default: throw new AssertionError(id);
@@ -543,7 +474,7 @@ public final class DaggerSVRApplication_HiltComponents_SingletonC {
 
     private final ServiceCImpl serviceCImpl = this;
 
-    private ServiceCImpl(SingletonCImpl singletonCImpl, Service serviceParam) {
+    ServiceCImpl(SingletonCImpl singletonCImpl, Service serviceParam) {
       this.singletonCImpl = singletonCImpl;
 
 
@@ -553,29 +484,9 @@ public final class DaggerSVRApplication_HiltComponents_SingletonC {
   private static final class SingletonCImpl extends SVRApplication_HiltComponents.SingletonC {
     private final SingletonCImpl singletonCImpl = this;
 
-    private Provider<CertificatePinner> provideCertificatePinnerProvider;
+    SingletonCImpl() {
 
-    private Provider<OkHttpClient> provideOkHttpClientProvider;
 
-    private Provider<Retrofit> provideRetrofitProvider;
-
-    private Provider<SVRGatewayApi> provideSVRGatewayApiProvider;
-
-    private Provider<SVRRepository> provideSVRRepositoryProvider;
-
-    private SingletonCImpl() {
-
-      initialize();
-
-    }
-
-    @SuppressWarnings("unchecked")
-    private void initialize() {
-      this.provideCertificatePinnerProvider = DoubleCheck.provider(new SwitchingProvider<CertificatePinner>(singletonCImpl, 4));
-      this.provideOkHttpClientProvider = DoubleCheck.provider(new SwitchingProvider<OkHttpClient>(singletonCImpl, 3));
-      this.provideRetrofitProvider = DoubleCheck.provider(new SwitchingProvider<Retrofit>(singletonCImpl, 2));
-      this.provideSVRGatewayApiProvider = DoubleCheck.provider(new SwitchingProvider<SVRGatewayApi>(singletonCImpl, 1));
-      this.provideSVRRepositoryProvider = DoubleCheck.provider(new SwitchingProvider<SVRRepository>(singletonCImpl, 0));
     }
 
     @Override
@@ -595,40 +506,6 @@ public final class DaggerSVRApplication_HiltComponents_SingletonC {
     @Override
     public ServiceComponentBuilder serviceComponentBuilder() {
       return new ServiceCBuilder(singletonCImpl);
-    }
-
-    private static final class SwitchingProvider<T> implements Provider<T> {
-      private final SingletonCImpl singletonCImpl;
-
-      private final int id;
-
-      SwitchingProvider(SingletonCImpl singletonCImpl, int id) {
-        this.singletonCImpl = singletonCImpl;
-        this.id = id;
-      }
-
-      @SuppressWarnings("unchecked")
-      @Override
-      public T get() {
-        switch (id) {
-          case 0: // com.securevote.remote.data.repository.SVRRepository 
-          return (T) RepositoryModule_ProvideSVRRepositoryFactory.provideSVRRepository(singletonCImpl.provideSVRGatewayApiProvider.get());
-
-          case 1: // com.securevote.remote.data.api.SVRGatewayApi 
-          return (T) NetworkModule_ProvideSVRGatewayApiFactory.provideSVRGatewayApi(singletonCImpl.provideRetrofitProvider.get());
-
-          case 2: // retrofit2.Retrofit 
-          return (T) NetworkModule_ProvideRetrofitFactory.provideRetrofit(singletonCImpl.provideOkHttpClientProvider.get());
-
-          case 3: // okhttp3.OkHttpClient 
-          return (T) NetworkModule_ProvideOkHttpClientFactory.provideOkHttpClient(singletonCImpl.provideCertificatePinnerProvider.get());
-
-          case 4: // okhttp3.CertificatePinner 
-          return (T) NetworkModule_ProvideCertificatePinnerFactory.provideCertificatePinner();
-
-          default: throw new AssertionError(id);
-        }
-      }
     }
   }
 }

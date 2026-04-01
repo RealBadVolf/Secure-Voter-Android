@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.securevote.remote.app-mergeDebugResources-74:/values-v25/values-v25.xml",
+            "outputFile": "com.securevote.remote.app-mergeDebugResources-73:/values-v25/values-v25.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\BadVolf\\.gradle\\caches\\8.13\\transforms\\e094acd3f9bceb25a08329ea13c82deb\\transformed\\appcompat-1.6.1\\res\\values-v25\\values-v25.xml",
+                    "source": "C:\\Users\\BadVolf\\.gradle\\caches\\8.11.1\\transforms\\a0c652dd7262f4b9c112f4f1c4da2a7f\\transformed\\appcompat-1.6.1\\res\\values-v25\\values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",

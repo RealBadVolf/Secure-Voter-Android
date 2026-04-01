@@ -13,8 +13,10 @@ import javax.annotation.processing.Generated;
     originatingRoot = "com.securevote.remote.SVRApplication",
     originatingRootPackage = "com.securevote.remote",
     rootAnnotation = HiltAndroidApp.class,
+    rootComponentPackage = "dagger.hilt.components",
     rootSimpleNames = "SVRApplication",
-    originatingRootSimpleNames = "SVRApplication"
+    originatingRootSimpleNames = "SVRApplication",
+    rootComponentSimpleNames = "SingletonComponent"
 )
 @Generated("dagger.hilt.processor.internal.root.AggregatedRootGenerator")
 public class _com_securevote_remote_SVRApplication {

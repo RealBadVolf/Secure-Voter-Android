@@ -1,8 +1,6 @@
 package com.securevote.remote;
 
 import com.securevote.remote.data.api.NetworkModule;
-import com.securevote.remote.data.repository.RepositoryModule;
-import com.securevote.remote.ui.SVRViewModel_HiltModules;
 import dagger.Binds;
 import dagger.Component;
 import dagger.Module;
@@ -33,7 +31,7 @@ import dagger.hilt.android.internal.managers.FragmentComponentManager;
 import dagger.hilt.android.internal.managers.HiltWrapper_ActivityRetainedComponentManager_ActivityRetainedComponentBuilderEntryPoint;
 import dagger.hilt.android.internal.managers.HiltWrapper_ActivityRetainedComponentManager_ActivityRetainedLifecycleEntryPoint;
 import dagger.hilt.android.internal.managers.HiltWrapper_ActivityRetainedComponentManager_LifecycleModule;
-import dagger.hilt.android.internal.managers.HiltWrapper_SavedStateHandleModule;
+import dagger.hilt.android.internal.managers.HiltWrapper_ActivitySavedStateHandleModule;
 import dagger.hilt.android.internal.managers.ServiceComponentManager;
 import dagger.hilt.android.internal.managers.ViewComponentManager;
 import dagger.hilt.android.internal.modules.ApplicationContextModule;
@@ -130,12 +128,12 @@ public final class SVRApplication_HiltComponents {
           ApplicationContextModule.class,
           HiltWrapper_FragmentGetContextFix_FragmentGetContextFixModule.class,
           NetworkModule.class,
-          RepositoryModule.class,
           ActivityRetainedCBuilderModule.class,
           ServiceCBuilderModule.class
       }
   )
   @Singleton
+  @jakarta.inject.Singleton
   public abstract static class SingletonC implements SVRApplication_GeneratedInjector,
       FragmentGetContextFix.FragmentGetContextFixEntryPoint,
       HiltWrapper_ActivityRetainedComponentManager_ActivityRetainedComponentBuilderEntryPoint,
@@ -156,10 +154,9 @@ public final class SVRApplication_HiltComponents {
   @Subcomponent(
       modules = {
           HiltWrapper_ActivityRetainedComponentManager_LifecycleModule.class,
-          HiltWrapper_SavedStateHandleModule.class,
+          HiltWrapper_ActivitySavedStateHandleModule.class,
           ActivityCBuilderModule.class,
-          ViewModelCBuilderModule.class,
-          SVRViewModel_HiltModules.KeyModule.class
+          ViewModelCBuilderModule.class
       }
   )
   @ActivityRetainedScoped
@@ -194,10 +191,7 @@ public final class SVRApplication_HiltComponents {
   }
 
   @Subcomponent(
-      modules = {
-          HiltWrapper_HiltViewModelFactory_ViewModelModule.class,
-          SVRViewModel_HiltModules.BindsModule.class
-      }
+      modules = HiltWrapper_HiltViewModelFactory_ViewModelModule.class
   )
   @ViewModelScoped
   public abstract static class ViewModelC implements ViewModelComponent,
