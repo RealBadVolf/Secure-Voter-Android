@@ -2,6 +2,7 @@ package com.securevote.remote.ui.screens
 
 import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.KeyboardActions
@@ -94,7 +95,7 @@ fun VoterLookupScreen(onVoterFound: (VoterInfo) -> Unit, onBack: () -> Unit) {
     var foundVoter by remember { mutableStateOf<VoterInfo?>(null) }
     val scope = rememberCoroutineScope()
 
-    Column(modifier = Modifier.fillMaxSize().padding(24.dp)) {
+    Column(modifier = Modifier.fillMaxSize().padding(24.dp).navigationBarsPadding()) {
         StepIndicator(step = 1, total = 5, label = "Identify Yourself")
         Spacer(Modifier.height(24.dp))
         Text("Voter Identification", style = MaterialTheme.typography.headlineMedium, color = Navy)
@@ -105,7 +106,10 @@ fun VoterLookupScreen(onVoterFound: (VoterInfo) -> Unit, onBack: () -> Unit) {
         if (foundVoter == null) {
             // Entry mode
             OutlinedTextField(
-                value = regNumber, onValueChange = { regNumber = it.uppercase(); error = null },
+                value = regNumber, onValueChange = { input ->
+                    regNumber = input.uppercase().filter { it.isLetterOrDigit() || it == '-' }
+                    error = null
+                },
                 label = { Text("Registration Number") },
                 placeholder = { Text("e.g. FL-0112464792") },
                 modifier = Modifier.fillMaxWidth(),
@@ -307,7 +311,7 @@ fun BiometricScreen(voterName: String = "", onVerified: () -> Unit) {
 @Composable
 fun PINEntryScreen(
     voterId: Long, electionId: String, voterName: String,
-    onPinVerified: (sessionToken: String?) -> Unit, onLocked: () -> Unit,
+    onPinVerified: (PINResult) -> Unit, onLocked: () -> Unit,
 ) {
     var pin by remember { mutableStateOf("") }
     var error by remember { mutableStateOf<String?>(null) }
@@ -399,7 +403,7 @@ fun PINEntryScreen(
                                             val result = verifyPIN(voterId, electionId, pin)
                                             loading = false
                                             if (result.verified) {
-                                                onPinVerified(result.sessionToken)
+                                                onPinVerified(result)
                                             } else if (result.locked) {
                                                 locked = true
                                             } else {
@@ -475,7 +479,7 @@ fun BallotRaceScreen(
         "RANKED_CHOICE" -> "Rank in order"; else -> "Vote for ONE"
     }
 
-    Column(modifier = Modifier.fillMaxSize().padding(20.dp)) {
+    Column(modifier = Modifier.fillMaxSize().padding(20.dp).navigationBarsPadding()) {
         StepIndicator(step = 4, total = 5, label = "Cast Your Vote")
         Spacer(Modifier.height(8.dp))
         Text("Race ${raceIndex + 1} of $totalRaces", style = MaterialTheme.typography.bodySmall, color = MedGray)
@@ -529,7 +533,7 @@ fun BallotReviewScreen(
     races: List<LiveRace>, candidates: Map<String, List<LiveCandidate>>,
     selections: Map<String, String?>, onConfirm: () -> Unit, onChangeRace: (Int) -> Unit,
 ) {
-    Column(modifier = Modifier.fillMaxSize().padding(20.dp)) {
+    Column(modifier = Modifier.fillMaxSize().padding(20.dp).navigationBarsPadding()) {
         StepIndicator(step = 4, total = 5, label = "Review Your Ballot")
         Spacer(Modifier.height(16.dp))
         Text("Review All Selections", style = MaterialTheme.typography.headlineMedium, color = Navy)
@@ -647,9 +651,10 @@ fun EncryptionScreen(
 // ================================================================
 
 @Composable
-fun SuccessScreen(voteRecordId: String, confirmationHash: String, onDone: () -> Unit) {
+fun SuccessScreen(voteRecordId: String, confirmationHash: String,
+    submissionSequence: Int = 1, remainingSubmissions: Int = 4, onDone: () -> Unit) {
     Column(
-        modifier = Modifier.fillMaxSize().padding(28.dp),
+        modifier = Modifier.fillMaxSize().padding(28.dp).navigationBarsPadding(),
         horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.Center,
     ) {
         Box(Modifier.size(80.dp).clip(CircleShape).background(GreenLight), contentAlignment = Alignment.Center) {
@@ -684,7 +689,7 @@ fun SuccessScreen(voteRecordId: String, confirmationHash: String, onDone: () -> 
             }
             Column(horizontalAlignment = Alignment.CenterHorizontally) {
                 Text("Submission", fontSize = 11.sp, color = MedGray)
-                Text("#1 of 5", fontSize = 12.sp, fontWeight = FontWeight.Bold, color = CivicBlue)
+                Text("#$submissionSequence of 5", fontSize = 12.sp, fontWeight = FontWeight.Bold, color = CivicBlue)
             }
         }
         Spacer(Modifier.height(24.dp))
@@ -694,7 +699,10 @@ fun SuccessScreen(voteRecordId: String, confirmationHash: String, onDone: () -> 
             Text("Done", fontWeight = FontWeight.SemiBold)
         }
         Spacer(Modifier.height(8.dp))
-        Text("You may revote up to 4 more times before the window closes.", fontSize = 11.sp, color = MedGray, textAlign = TextAlign.Center)
+        Text(
+            if (remainingSubmissions > 0) "You may revote up to $remainingSubmissions more time(s) before the window closes."
+            else "This is your final submission. No more revotes available.",
+            fontSize = 11.sp, color = MedGray, textAlign = TextAlign.Center)
     }
 }
 
@@ -724,62 +732,122 @@ fun ThankYouScreen(onReturn: () -> Unit) {
 
 @Composable
 fun VerificationScreen(onBack: () -> Unit) {
-    var voteId by remember { mutableStateOf("") }
-    var result by remember { mutableStateOf<String?>(null) }
+    var rawInput by remember { mutableStateOf("") }
+    var confirmHash by remember { mutableStateOf<String?>(null) }
+    var verifyStatus by remember { mutableStateOf<String?>(null) }
     var loading by remember { mutableStateOf(false) }
     val scope = rememberCoroutineScope()
 
-    Column(modifier = Modifier.fillMaxSize().padding(24.dp)) {
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            TextButton(onClick = onBack) { Text("← Back", color = CivicBlue) }
+    // Auto-format: insert dashes as SV-2026-XXXXXXXX
+    val formattedId = remember(rawInput) {
+        val clean = rawInput.replace("-", "").uppercase()
+        buildString {
+            clean.forEachIndexed { i, c ->
+                if (i == 2 || i == 6) append('-')
+                append(c)
+            }
         }
+    }
+
+    Column(modifier = Modifier.fillMaxSize().padding(24.dp).navigationBarsPadding()) {
+        TextButton(onClick = onBack) { Text("← Back", color = CivicBlue) }
         Spacer(Modifier.height(16.dp))
         Text("Verify Your Vote", style = MaterialTheme.typography.headlineMedium, color = Navy)
         Text("Enter your Vote Record ID to confirm it was counted.", fontSize = 14.sp, color = MedGray)
         Spacer(Modifier.height(24.dp))
 
         OutlinedTextField(
-            value = voteId, onValueChange = { voteId = it.uppercase() },
-            label = { Text("Vote Record ID") }, placeholder = { Text("SV-2026-XXXX-XXXX") },
+            value = rawInput,
+            onValueChange = { input ->
+                rawInput = input.uppercase().filter { it.isLetterOrDigit() || it == '-' }
+            },
+            label = { Text("Vote Record ID") },
+            placeholder = { Text("SV-2026-XXXXXXXX") },
             modifier = Modifier.fillMaxWidth(), singleLine = true,
         )
+
+        if (verifyStatus == null && !loading) {
+            Spacer(Modifier.height(8.dp))
+            Text("This ID was shown on your receipt after voting.", fontSize = 12.sp, color = MedGray)
+        }
+
         Spacer(Modifier.height(16.dp))
 
         Button(
             onClick = {
-                loading = true; result = null
-                scope.launch {
+                loading = true; verifyStatus = null; confirmHash = null
+                scope.launch(kotlinx.coroutines.Dispatchers.IO) {
                     try {
                         val conn = URL("${BuildConfig.SVR_GATEWAY_URL}/verify").openConnection() as HttpURLConnection
                         conn.requestMethod = "POST"; conn.doOutput = true; conn.connectTimeout = 10000
                         conn.setRequestProperty("Content-Type", "application/json")
-                        val body = """{"vote_record_id":"${voteId.trim()}","election_id":"","pin":""}"""
+                        val body = """{"vote_record_id":"${formattedId.trim()}","election_id":"","pin":""}"""
                         conn.outputStream.write(body.toByteArray())
-                        val resp = conn.inputStream.bufferedReader().readText(); conn.disconnect()
+                        val code = conn.responseCode
+                        val resp = (if (code in 200..299) conn.inputStream else conn.errorStream).bufferedReader().readText()
+                        conn.disconnect()
                         val o = Json.parseToJsonElement(resp).jsonObject
-                        result = o["status"]?.jsonPrimitive?.content ?: "UNKNOWN"
-                    } catch (e: Exception) { result = "ERROR: ${e.message}" }
+                        verifyStatus = o["status"]?.jsonPrimitive?.content ?: "UNKNOWN"
+                        val ch = o["confirmation_hash"]?.jsonPrimitive?.content
+                        confirmHash = if (ch.isNullOrEmpty() || ch == "null") null else ch
+                    } catch (e: Exception) {
+                        verifyStatus = "CONNECTION_ERROR"
+                    }
                     loading = false
                 }
             },
             modifier = Modifier.fillMaxWidth(), shape = RoundedCornerShape(12.dp),
-            enabled = voteId.isNotBlank() && !loading,
+            enabled = formattedId.length >= 5 && !loading,
         ) {
             if (loading) CircularProgressIndicator(Modifier.size(20.dp), color = Color.White, strokeWidth = 2.dp)
-            else Text("Verify")
+            else Text("Verify My Vote")
         }
 
-        if (result != null) {
+        if (verifyStatus != null) {
             Spacer(Modifier.height(24.dp))
-            Card(
-                Modifier.fillMaxWidth(), shape = RoundedCornerShape(12.dp),
-                colors = CardDefaults.cardColors(containerColor = if (result == "VERIFIED") GreenLight else AmberLight),
-            ) {
-                Column(Modifier.padding(16.dp)) {
-                    Text(if (result == "VERIFIED") "✓ Vote Verified" else "Status: $result",
-                        fontWeight = FontWeight.Bold, fontSize = 18.sp,
-                        color = if (result == "VERIFIED") ForestGreen else Amber)
-                    if (result == "VERIFIED") Text("Your vote exists in the certified Merkle tree.", fontSize = 13.sp, color = MedGray)
+            when (verifyStatus) {
+                "VERIFIED" -> {
+                    Card(Modifier.fillMaxWidth(), shape = RoundedCornerShape(12.dp),
+                        colors = CardDefaults.cardColors(containerColor = GreenLight),
+                        border = BorderStroke(1.dp, ForestGreen)) {
+                        Column(Modifier.padding(16.dp)) {
+                            Row(verticalAlignment = Alignment.CenterVertically) {
+                                Icon(Icons.Filled.CheckCircle, null, tint = ForestGreen, modifier = Modifier.size(24.dp))
+                                Spacer(Modifier.width(8.dp))
+                                Text("Vote Verified", fontWeight = FontWeight.Bold, fontSize = 18.sp, color = ForestGreen)
+                            }
+                            Spacer(Modifier.height(8.dp))
+                            Text("Your vote exists in the election record.", fontSize = 13.sp, color = MedGray)
+                            if (confirmHash != null) {
+                                Spacer(Modifier.height(8.dp))
+                                Text("Confirmation: $confirmHash", fontSize = 12.sp, color = CivicBlue, fontFamily = FontFamily.Monospace)
+                            }
+                            Spacer(Modifier.height(8.dp))
+                            Text("Note: Full Merkle proof verification will be available after the election is certified.",
+                                fontSize = 11.sp, color = MedGray)
+                        }
+                    }
+                }
+                "NOT_FOUND" -> {
+                    Card(Modifier.fillMaxWidth(), shape = RoundedCornerShape(12.dp),
+                        colors = CardDefaults.cardColors(containerColor = AmberLight),
+                        border = BorderStroke(1.dp, Amber)) {
+                        Column(Modifier.padding(16.dp)) {
+                            Text("Vote Not Found", fontWeight = FontWeight.Bold, fontSize = 18.sp, color = Amber)
+                            Spacer(Modifier.height(4.dp))
+                            Text("No vote with this Record ID was found. Check the ID and try again.", fontSize = 13.sp, color = MedGray)
+                        }
+                    }
+                }
+                else -> {
+                    Card(Modifier.fillMaxWidth(), shape = RoundedCornerShape(12.dp),
+                        colors = CardDefaults.cardColors(containerColor = Color(0xFFFEE2E2))) {
+                        Column(Modifier.padding(16.dp)) {
+                            Text("Verification Error", fontWeight = FontWeight.Bold, fontSize = 18.sp, color = Crimson)
+                            Spacer(Modifier.height(4.dp))
+                            Text("Could not connect to the verification server. Please try again later.", fontSize = 13.sp, color = MedGray)
+                        }
+                    }
                 }
             }
         }

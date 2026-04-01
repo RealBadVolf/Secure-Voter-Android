@@ -4,7 +4,7 @@
             "outputFile": "com.securevote.remote.app-mergeDebugResources-73:/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\BadVolf\\.gradle\\caches\\8.13\\transforms\\afe0bbe1692f1217b9bb87a29f5e2f1d\\transformed\\appcompat-1.6.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "source": "C:\\Users\\BadVolf\\.gradle\\caches\\9.3.1\\transforms\\7f0688defa253d6b0beb22bd3c8418da\\workspace\\transformed\\appcompat-1.6.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

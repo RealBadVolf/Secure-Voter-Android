@@ -70,7 +70,8 @@ suspend fun lookupVoter(regNumber: String): VoterInfo? = withContext(Dispatchers
     } catch (e: Exception) { e.printStackTrace(); null }
 }
 
-data class PINResult(val verified: Boolean, val attemptsRemaining: Int, val locked: Boolean, val sessionToken: String?)
+data class PINResult(val verified: Boolean, val attemptsRemaining: Int, val locked: Boolean,
+    val sessionToken: String?, val voterToken: String?, val submissionSequence: Int, val remainingSubmissions: Int)
 
 suspend fun verifyPIN(voterId: Long, electionId: String, pin: String): PINResult = withContext(Dispatchers.IO) {
     try {
@@ -93,11 +94,14 @@ suspend fun verifyPIN(voterId: Long, electionId: String, pin: String): PINResult
         val remaining = o["attempts_remaining"]?.jsonPrimitive?.int ?: 3
         val locked = o["locked"]?.jsonPrimitive?.boolean ?: false
         val token = o["session_token"]?.jsonPrimitive?.content
+        val vToken = o["voter_token"]?.jsonPrimitive?.content
+        val seq = o["submission_sequence"]?.jsonPrimitive?.int ?: 1
+        val remSub = o["remaining_submissions"]?.jsonPrimitive?.int ?: 5
 
-        PINResult(verified, remaining, locked, token)
+        PINResult(verified, remaining, locked, token, vToken, seq, remSub)
     } catch (e: Exception) {
         e.printStackTrace()
-        PINResult(false, 3, false, null)
+        PINResult(false, 3, false, null, null, 1, 5)
     }
 }
 
@@ -158,6 +162,8 @@ fun SVRApp() {
     var voteRecordId by remember { mutableStateOf("") }
     var confirmationHash by remember { mutableStateOf("") }
     var voterToken by remember { mutableStateOf("") }
+    var submissionSequence by remember { mutableIntStateOf(1) }
+    var remainingSubmissions by remember { mutableIntStateOf(5) }
 
     // Fetch BDF on launch
     LaunchedEffect(Unit) {
@@ -222,8 +228,10 @@ fun SVRApp() {
                 voterId = currentVoter?.voterId ?: 0,
                 electionId = electionId,
                 voterName = currentVoter?.let { "${it.firstName} ${it.lastName}" } ?: "",
-                onPinVerified = { sessionToken ->
-                    if (sessionToken != null) voterToken = sessionToken
+                onPinVerified = { result ->
+                    if (result.voterToken != null) voterToken = result.voterToken
+                    submissionSequence = result.submissionSequence
+                    remainingSubmissions = result.remainingSubmissions
                     navController.navigate(SVRRoute.TokenIssuance.route)
                 },
                 onLocked = {
@@ -295,6 +303,7 @@ fun SVRApp() {
         // ---- Success ----
         composable(SVRRoute.Success.route) {
             SuccessScreen(voteRecordId = voteRecordId, confirmationHash = confirmationHash,
+                submissionSequence = submissionSequence, remainingSubmissions = 5 - submissionSequence,
                 onDone = { navController.navigate(SVRRoute.ThankYou.route) { popUpTo(0) { inclusive = true } } })
         }
 
